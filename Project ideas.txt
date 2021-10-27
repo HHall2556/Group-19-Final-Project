@@ -1,1 +1,8 @@
 Henry Hall, Asa Dixon, Jon Lair, Alan Hafliger, Jackson Pitcher, Natalia Wnuk, Saad M. El Refai
+
+3. One of the data sets is the Google Public Data Explorer. It was launched in 2010. The main advantage of this data set is that it allows users to access other public data sets like the World Bank, U.S. bureau of Labor Statistics and U.S. Bureau, OECD, and IMF. You can deploy this data visually with line graphs, bar graphs, maps and bubble charts. These can then be shared via links or being embedded in a website.   The Yelp dataset keeps track of user reviews,user feedback, and the amount of people and businesses using your application. You can display this data in a bar graph. Another data set is the Registry of Open Data on AWS(RODA). This is a repository of public datasets. The most common type of data used in RODA includes genomic, satellite imagery and transportation data. You can view details, usage examples, license information and tutorials or applications that use this data to help guide a project. Data.gov has all of the government's public data available for free. Everything in data.gov follows the Project Open Data Schema(Title, Description, Tags, Last Update, Publisher, Contact Name, etc.). 
+
+4. 
+
+5.The first proposed project would be a loneliness awareness site. This site is to aid people who feel isolated and provides them an outlet to discuss with other people about their issues. 
+Our second proposed project is to combat ocean pollution and overfishing. Ocean pollution and overfishing are causing fish and other sea creatures serious population decline and potential extinction. Fish accounts for a significant proportion of the world's food consumption. Exhausting this resource will harm the world.  
