@@ -10,4 +10,5 @@ The potential customers for this product would be anyone who's concerned with th
 Idea 3,The first proposed project would be a loneliness awareness site. This site is to aid people who feel isolated and provides them an outlet to discuss with other people about their issues. 
 Our second proposed project is to combat ocean pollution and overfishing. Ocean pollution and overfishing are causing fish and other sea creatures serious population decline and potential extinction. Fish accounts for a significant proportion of the world's food consumption. Exhausting this resource will harm the world.  
 
-Idea 4,
+Idea 4, The site will talk display statistics of covid cases around the world and will display 
+information on what countries have travel bans due to the covid cases.
