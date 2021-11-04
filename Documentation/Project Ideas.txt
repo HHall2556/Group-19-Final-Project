@@ -1,6 +1,6 @@
 Group 19 Project Idea:
 Project Clean Air
-Members: Jon Lair, Asa Dixon, Henry Hall, Saad Mahmoud El Refai
+Members: Jon Lair, Asa Dixon, Henry Hall, Saad Mahmoud El Refai, Eric Yang
 
 
 Source and dataset: https://www.kaggle.com/sogun3/uspollution 
