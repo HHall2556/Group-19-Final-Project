@@ -1,0 +1,64 @@
+/**
+ * Javascript for 50states.com Google Analytics Tracking
+ **/
+
+var ri = "Request Info";
+var vss = "Visit School Site";
+
+//Clicking a Request Info or Visit School button adds a product to the cart
+function addtocart(productId, productName, productCategory, productBrand, customDimension1, customDimension2, customDimension3, customDimension4, customDimension5, customDimension6, customDimension7, theLink) {
+    ga('ec:addProduct', {
+        'id': productId,
+        'name': productName,
+        'category': productCategory,
+        'brand': productBrand,
+        'price': 0.00,
+        'quantity': 1
+    });
+
+    ga('set', 'dimension1', customDimension1);
+    ga('set', 'dimension2', customDimension2);
+    ga('set', 'dimension3', customDimension3);
+    ga('set', 'dimension4', customDimension4);
+    ga('set', 'dimension5', customDimension5);
+    ga('set', 'dimension6', customDimension6);
+    ga('set', 'dimension7', customDimension7);
+    ga('ec:setAction', 'add');
+    ga('send', 'event', 'UX', 'click', 'add to cart');
+    return true;
+    window.location = theLink;
+}
+
+//Track clicks on Quinstreet Buttons as *** Add To Cart ***
+jQuery(document).ready(function () {
+    return;
+
+    function quinstreetClick(productId, productName, productCategory, productBrand, className, customDimension1, customDimension2, customDimension3, customDimension4, customDimension5, customDimension6, customDimension7) { //
+        jQuery(className).click(function (event) {
+            var myClasses = this.classList;
+            //alert(myClasses[0]);
+            if (myClasses[0].indexOf("bluid") > -1) {
+                event.preventDefault();
+                if (myClasses[1] == "qs-button-visit-school-site") {
+                    customDimension7 = vss;
+                }
+                else {
+                    customDimension7 = ri;
+                }
+                addtocart(productId, productName, productCategory, productBrand, customDimension1, customDimension2, customDimension3, customDimension4, customDimension5, customDimension6, customDimension7, jQuery(this).attr('href'));
+            }
+        });
+    }
+
+    if (window.location.href.indexOf("college-details") > -1) {
+        quinstreetClick("QDP", "Quinstreet Detail Page Widget", "Quinstreet Listing", "Quinstreet", "#qs-hq a", customDimension1, customDimension2, customDimension3, customDimension4, customDimension5, customDimension6, customDimension7);
+    }
+    else {
+        quinstreetClick("QFPS", "Quinstreet (Featured, Popular, Specialty)", "Quinstreet Listing", "Quinstreet", "#qs-hq a", customDimension1, customDimension2, customDimension3, customDimension4, customDimension5, customDimension6, customDimension7);
+    }
+    quinstreetClick("QSR", "Quinstreet Search Results", "Quinstreet Listing", "Quinstreet", "#qs-hsr a", customDimension1, customDimension2, customDimension3, customDimension4, customDimension5, customDimension6, customDimension7);
+    quinstreetClick("QFPS", "Quinstreet (Featured, Popular, Specialty)", "Quinstreet Listing", "Quinstreet", "#qs-po a", customDimension1, customDimension2, customDimension3, customDimension4, customDimension5, customDimension6, customDimension7);
+    quinstreetClick("QFPS", "Quinstreet (Featured, Popular, Specialty)", "Quinstreet Listing", "Quinstreet", "#qs-sp a", customDimension1, customDimension2, customDimension3, customDimension4, customDimension5, customDimension6, customDimension7);
+
+});
+

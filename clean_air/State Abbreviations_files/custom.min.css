@@ -1,0 +1,4945 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:0 0;
+}
+
+body {
+    background-color:#fff!important;
+}
+
+a {
+    transition:none!important;
+}
+
+#content a:hover :not(.listStates),#content a:focus :not(.listStates),.bulletedList a:focus,.bulletedList a:hover {
+    color:#2a6496;
+}
+
+@font-face {
+    font-display:swap;
+}
+
+.widget_custom_html {
+    text-align:center;
+}
+
+.well,.main-content-inner {
+    padding:0;
+}
+
+.main-content-area {
+    margin-top:0!important;
+}
+
+.ar-header-ad-row {
+    min-height:96px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:970px;
+    }
+}
+
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9 {
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.post-inner-content {
+    padding:0 10px!important;
+    padding:0 16px!important;
+}
+
+.emph {
+    left:-18px!important;
+    color:#fff;
+    background-color:#ef2f27!important;
+    line-height:33px;
+    padding:0 24px;
+    text-transform:uppercase;
+    font-weight:700;
+    position:relative;
+    left:-24px;
+    background-position:right -55px!important;
+    margin:0 -24px 16px 0;
+}
+
+div#secondary {
+    padding-right:0;
+}
+
+div.main-content-inner {
+    padding-left:0;
+}
+
+.navbar {
+    background-image:-webkit-linear-gradient(#C52E1C 60%,#9D2314);
+    background-image:-moz-linear-gradient(#C52E1C 60%,#9D2314);
+    background-image:-ms-linear-gradient(#C52E1C 60%,#9D2314);
+    background-image:-o-linear-gradient(#C52E1C 60%,#9D2314);
+    background-image:linear-gradient(top bottom,#C52E1C 60%,#9D2314);
+}
+
+#logo {
+    margin:8px 0 12px!important;
+}
+
+.navbar-nav > li {
+    padding:0 9px!important;
+}
+
+.navbar-nav > li > a {
+    font-family:"Sans Pro",Helvetica,sans-serif!important;
+    font-size:18px!important;
+    text-transform:none!important;
+}
+
+.ar-search-form {
+    width:46.5%;
+}
+
+button.btn.form-control-feedback.input-group-addon.ar-header-search-button {
+    font-size:14px;
+    height:20px;
+    width:auto;
+    background:#fff;
+    border:0;
+    margin:0;
+}
+
+.input-group-addon {
+    padding:7px 1px;
+}
+
+.ar-header-search-input {
+    height:26px;
+}
+
+.ar-header-ad-row,.ar-footer-ad-row {
+    width:100%;
+    text-align:center;
+    margin:7px auto;
+}
+
+.boxLightBlue {
+    background-color:#d0d4f6;
+    border:4px solid #969bcb;
+    padding:8px 0;
+    background-color:#d0d4f6;
+    border:4px solid #969bcb;
+    padding:8px 0;
+}
+
+.floatLeft {
+    float:left;
+    float:left!important;
+}
+
+.rounded {
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.listStates li ul {
+    border-right:1px dotted #969bcb;
+    padding:0 8px;
+    border-right:1px dotted #969bcb;
+    padding:0 8px;
+}
+
+.listStates li li {
+    width:133px;
+    border:none;
+    width:133px;
+    border:none;
+}
+
+.listStates li li .stateLink {
+    padding:8px 8px 8px 34px;
+    position:relative;
+    padding:8px 8px 8px 34px;
+    position:relative;
+    padding:8px 8px 8px 34px;
+    position:relative;
+}
+
+.displayBlock {
+    display:block;
+    display:block;
+    display:block;
+    display:block;
+}
+
+a {
+    color:#4951a5;
+    text-decoration:underline;
+}
+
+.listStates li {
+    list-style:none;
+}
+
+.listStates a {
+    color:#4951a5;
+    text-decoration:underline;
+    font-size:12px;
+}
+
+.clearAfter:after {
+    content:" ";
+    line-height:0;
+    font-size:0;
+}
+
+.clear,.clearAfter:after {
+    clear:both;
+    visibility:hidden;
+    display:block;
+    overflow:hidden;
+    width:0;
+    height:0;
+}
+
+.listStates li li .stateLink .gifSprite {
+    position:absolute;
+    width:30px;
+    height:30px;
+    left:0;
+    top:50%;
+    margin-top:-15px;
+    position:absolute;
+    width:30px;
+    height:30px;
+    left:0;
+    top:50%;
+    margin-top:-15px;
+}
+
+.gifSprite {
+    background:transparent url(/images/50_sprite2.gif) scroll no-repeat 0 0;
+}
+
+.listStates ul.lastColumn {
+    border-right:none;
+}
+
+.listStates .stateLink:hover,.listStates .stateLink:focus {
+    background-color:#d5c1ac;
+}
+
+#parentCommonwealths ul li {
+    border-left:1px solid #abc6ef;
+    width:128px;
+}
+
+#parentCommonwealths ul a {
+    padding:5px;
+}
+
+#parentCommonwealths ul {
+    border-width:2px;
+    padding:0;
+    margin-top:-3px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    -webkit-border-bottom-left-radius:4px;
+    -webkit-border-bottom-right-radius:4px;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+}
+
+#btnCommonwealths {
+    margin-top:14px;
+}
+
+#btnCommonwealths,#parentCommonwealths ul {
+    font-size:.9em;
+}
+
+#btnCommonwealths .buttonInner {
+    background-position:0 -88px;
+}
+
+#btnCommonwealths .buttonDepressedInner {
+    line-height:1.4;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+#btnCommonwealths:hover .buttonDepressedInner,#parentCommonwealths:hover .buttonDepressedInner,#btnCommonwealths:focus .buttonDepressedInner,#parentCommonwealths:focus .buttonDepressedInner {
+    border-color:#39429e;
+}
+
+#parentCommonwealths li.last {
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    -webkit-border-bottom-left-radius:2px;
+    -webkit-border-bottom-right-radius:2px;
+    -moz-border-radius-bottomleft:2px;
+    -moz-border-radius-bottomright:2px;
+}
+
+a:hover .stateAlabama,a:focus .stateAlabama {
+    background-position:0 -30px!important;
+}
+
+.stateAlaska {
+    background-position:-30px 0;
+}
+
+a:hover .stateAlaska,a:focus .stateAlaska {
+    background-position:-30px -30px!important;
+}
+
+.stateArizona {
+    background-position:-60px 0;
+}
+
+a:hover .stateArizona,a:focus .stateArizona {
+    background-position:-60px -30px!important;
+}
+
+.stateArkansas {
+    background-position:-90px 0;
+}
+
+a:hover .stateArkansas,a:focus .stateArkansas {
+    background-position:-90px -30px!important;
+}
+
+.stateCalifornia {
+    background-position:-120px 0;
+}
+
+a:hover .stateCalifornia,a:focus .stateCalifornia {
+    background-position:-120px -30px!important;
+}
+
+.stateColorado {
+    background-position:-150px 0;
+}
+
+a:hover .stateColorado,a:focus .stateColorado {
+    background-position:-150px -30px!important;
+}
+
+.stateConnecticut {
+    background-position:0 -60px;
+}
+
+a:hover .stateConnecticut,a:focus .stateConnecticut {
+    background-position:0 -90px!important;
+}
+
+.stateDelaware {
+    background-position:-30px -60px;
+}
+
+a:hover .stateDelaware,a:focus .stateDelaware {
+    background-position:-30px -90px!important;
+}
+
+.stateFlorida {
+    background-position:-60px -60px;
+}
+
+a:hover .stateFlorida,a:focus .stateFlorida {
+    background-position:-60px -90px!important;
+}
+
+.stateGeorgia {
+    background-position:-90px -60px;
+}
+
+a:hover .stateGeorgia,a:focus .stateGeorgia {
+    background-position:-90px -90px!important;
+}
+
+.stateHawaii {
+    background-position:-120px -60px;
+}
+
+a:hover .stateHawaii,a:focus .stateHawaii {
+    background-position:-120px -90px!important;
+}
+
+.stateIdaho {
+    background-position:-150px -60px;
+}
+
+a:hover .stateIdaho,a:focus .stateIdaho {
+    background-position:-150px -90px!important;
+}
+
+.stateIllinois {
+    background-position:0 -120px;
+}
+
+a:hover .stateIllinois,a:focus .stateIllinois {
+    background-position:0 -150px!important;
+}
+
+.stateIndiana {
+    background-position:-30px -120px;
+}
+
+a:hover .stateIndiana,a:focus .stateIndiana {
+    background-position:-30px -150px!important;
+}
+
+.stateIowa {
+    background-position:-60px -120px;
+}
+
+a:hover .stateIowa,a:focus .stateIowa {
+    background-position:-60px -150px!important;
+}
+
+.stateKansas {
+    background-position:-90px -120px;
+}
+
+a:hover .stateKansas,a:focus .stateKansas {
+    background-position:-90px -150px!important;
+}
+
+.stateKentucky {
+    background-position:-120px -120px;
+}
+
+a:hover .stateKentucky,a:focus .stateKentucky {
+    background-position:-120px -150px!important;
+}
+
+.stateLouisiana {
+    background-position:-150px -120px;
+}
+
+a:hover .stateLouisiana,a:focus .stateLouisiana {
+    background-position:-150px -150px!important;
+}
+
+.stateMaine {
+    background-position:0 -180px;
+}
+
+a:hover .stateMaine,a:focus .stateMaine {
+    background-position:0 -210px!important;
+}
+
+.stateMaryland {
+    background-position:-30px -180px;
+}
+
+a:hover .stateMaryland,a:focus .stateMaryland {
+    background-position:-30px -210px!important;
+}
+
+.stateMassachusetts {
+    background-position:-60px -180px;
+}
+
+a:hover .stateMassachusetts,a:focus .stateMassachusetts {
+    background-position:-60px -210px!important;
+}
+
+.stateMichigan {
+    background-position:-90px -180px;
+}
+
+a:hover .stateMichigan,a:focus .stateMichigan {
+    background-position:-90px -210px!important;
+}
+
+.stateMinnesota {
+    background-position:-120px -180px;
+}
+
+a:hover .stateMinnesota,a:focus .stateMinnesota {
+    background-position:-120px -210px!important;
+}
+
+.stateMississippi {
+    background-position:-150px -180px;
+}
+
+a:hover .stateMississippi,a:focus .stateMississippi {
+    background-position:-150px -210px!important;
+}
+
+.stateMissouri {
+    background-position:0 -240px;
+}
+
+a:hover .stateMissouri,a:focus .stateMissouri {
+    background-position:0 -270px!important;
+}
+
+.stateMontana {
+    background-position:-30px -240px;
+}
+
+a:hover .stateMontana,a:focus .stateMontana {
+    background-position:-30px -270px!important;
+}
+
+.stateNebraska {
+    background-position:-60px -240px;
+}
+
+a:hover .stateNebraska,a:focus .stateNebraska {
+    background-position:-60px -270px!important;
+}
+
+.stateNevada {
+    background-position:-90px -240px;
+}
+
+a:hover .stateNevada,a:focus .stateNevada {
+    background-position:-90px -270px!important;
+}
+
+.stateNewHampshire {
+    background-position:-120px -240px;
+}
+
+a:hover .stateNewHampshire,a:focus .stateNewHampshire {
+    background-position:-120px -270px!important;
+}
+
+.stateNewJersey {
+    background-position:-150px -240px;
+}
+
+a:hover .stateNewJersey,a:focus .stateNewJersey {
+    background-position:-150px -270px!important;
+}
+
+.stateNewMexico {
+    background-position:-30px -300px;
+}
+
+a:hover .stateNewMexico,a:focus .stateNewMexico {
+    background-position:-30px -330px!important;
+}
+
+.stateNewYork {
+    background-position:0 -300px;
+}
+
+a:hover .stateNewYork,a:focus .stateNewYork {
+    background-position:0 -330px!important;
+}
+
+.stateNorthCarolina {
+    background-position:-60px -300px;
+}
+
+a:hover .stateNorthCarolina,a:focus .stateNorthCarolina {
+    background-position:-60px -330px!important;
+}
+
+.stateNorthDakota {
+    background-position:-90px -300px;
+}
+
+a:hover .stateNorthDakota,a:focus .stateNorthDakota {
+    background-position:-90px -330px!important;
+}
+
+.stateOhio {
+    background-position:-120px -300px;
+}
+
+a:hover .stateOhio,a:focus .stateOhio {
+    background-position:-120px -330px!important;
+}
+
+.stateOklahoma {
+    background-position:-150px -300px;
+}
+
+a:hover .stateOklahoma,a:focus .stateOklahoma {
+    background-position:-150px -330px!important;
+}
+
+.stateOregon {
+    background-position:0 -360px;
+}
+
+a:hover .stateOregon,a:focus .stateOregon {
+    background-position:0 -390px!important;
+}
+
+.statePennsylvania {
+    background-position:-30px -360px;
+}
+
+a:hover .statePennsylvania,a:focus .statePennsylvania {
+    background-position:-30px -390px!important;
+}
+
+.stateRhodeIsland {
+    background-position:-60px -360px;
+}
+
+a:hover .stateRhodeIsland,a:focus .stateRhodeIsland {
+    background-position:-60px -390px!important;
+}
+
+.stateSouthCarolina {
+    background-position:-90px -360px;
+}
+
+a:hover .stateSouthCarolina,a:focus .stateSouthCarolina {
+    background-position:-90px -390px!important;
+}
+
+.stateSouthDakota {
+    background-position:-120px -360px;
+}
+
+a:hover .stateSouthDakota,a:focus .stateSouthDakota {
+    background-position:-120px -390px!important;
+}
+
+.stateTennessee {
+    background-position:-150px -360px;
+}
+
+a:hover .stateTennessee,a:focus .stateTennessee {
+    background-position:-150px -390px!important;
+}
+
+.stateTexas {
+    background-position:0 -420px;
+}
+
+a:hover .stateTexas,a:focus .stateTexas {
+    background-position:0 -450px!important;
+}
+
+.stateUtah {
+    background-position:-30px -420px;
+}
+
+a:hover .stateUtah,a:focus .stateUtah {
+    background-position:-30px -450px!important;
+}
+
+.stateVermont {
+    background-position:-60px -420px;
+}
+
+a:hover .stateVermont,a:focus .stateVermont {
+    background-position:-60px -450px!important;
+}
+
+.stateVirginia {
+    background-position:-90px -420px;
+}
+
+a:hover .stateVirginia,a:focus .stateVirginia {
+    background-position:-90px -450px!important;
+}
+
+.stateWashington {
+    background-position:-120px -420px;
+}
+
+a:hover .stateWashington,a:focus .stateWashington {
+    background-position:-120px -450px!important;
+}
+
+.stateWestVirginia {
+    background-position:-150px -420px;
+}
+
+a:hover .stateWestVirginia,a:focus .stateWestVirginia {
+    background-position:-150px -450px!important;
+}
+
+.stateWisconsin {
+    background-position:0 -480px;
+}
+
+a:hover .stateWisconsin,a:focus .stateWisconsin {
+    background-position:0 -510px!important;
+}
+
+.stateWyoming {
+    background-position:-30px -480px;
+}
+
+a:hover .stateWyoming,a:focus .stateWyoming {
+    background-position:-30px -510px!important;
+}
+
+.stateDC,.stateWashingtonDC {
+    background-position:-60px -480px;
+}
+
+a:hover .stateDC,a:hover .stateWashingtonDC,a:focus .stateDC,a:focus .stateWashingtonDC {
+    background-position:-60px -510px!important;
+}
+
+.state50States {
+    background-position:-90px -480px;
+}
+
+a:hover .state50States,a:focus .state50States {
+    background-position:-90px -510px!important;
+}
+
+a.orangeHover:hover,a.orangeHover:focus {
+    color:#ff8400;
+}
+
+.subtitle {
+    color:#000;
+    font-size:12px;
+    margin:0 0 16px;
+}
+
+.emph .emphLeftCap {
+    position:absolute;
+    left:0;
+    bottom:-7px;
+    width:7px;
+    height:40px;
+    background-position:0 -15px;
+}
+
+.emph,#collegeLander h1,#collegeLander h2 {
+    font-size:1.166667em;
+    text-shadow:#000 1px 1px 0;
+    font-family:inherit;
+}
+
+.widget_nav_menu ul li a {
+    border-bottom:none!important;
+    padding-top:6px!important;
+    padding-bottom:6px!important;
+}
+
+.footer-widget-area .widget {
+    margin-bottom:-10px!important;
+}
+
+#footer-area .footer-widget-area {
+    padding:17px 0 20px!important;
+}
+
+#colophon {
+    background-color:#1F1F1F;
+    padding:3px 0!important;
+    border-top:none!important;
+}
+
+.copyright.col-md-12 {
+    text-align:center;
+}
+
+.entry-content p {
+    font-size:12px;
+    color:#000;
+}
+
+.entry-content {
+    margin-bottom:20px!important;
+}
+
+.emph-new {
+    font-size:14px!important;
+}
+
+.bgGray {
+    background-color:#bfbfbf;
+}
+
+.sidebarBox,.sidebarBoxContent {
+    border-color:#909090;
+    border:1px solid #777!important;
+    border-color:#909090;
+    border:1px solid #000;
+}
+
+p,.sidebarBox,.col300Right .ad,.spaced {
+    margin:0 0 16px;
+}
+
+.sidebarBox .glossy {
+    background-position:0 -92px;
+    background-repeat:repeat-x;
+}
+
+.noIcon {
+    padding-left:18px!important;
+    color:#000;
+    font-family:inherit!important;
+    font-weight:500!important;
+    line-height:1.1!important;
+    font-size:14px!important;
+}
+
+.bgGray .sidebarBoxContent {
+    background-color:#ebebeb;
+}
+
+input.text,.sidebarBoxContent,textarea,.collegeCalloutContent {
+    box-shadow:inset 1px 1px 4px 1px #ccc;
+    -webkit-box-shadow:inset 1px 1px 4px 1px #ccc;
+    -moz-box-shadow:inset 1px 1px 4px 1px #ccc;
+    box-shadow:inset 1px 1px 4px 1px #ccc;
+    -webkit-box-shadow:inset 1px 1px 4px 1px #ccc;
+    -moz-box-shadow:inset 1px 1px 4px 1px #ccc;
+}
+
+.sidebarBoxContent {
+    padding:16px;
+    margin:0 2px 2px;
+}
+
+body .noTopMargin,body .title {
+    margin-top:0;
+}
+
+.formRow {
+    margin:16px 0;
+}
+
+label {
+    font-weight:700;
+}
+
+input.text,select,textarea {
+    border:1px solid #909090!important;
+}
+
+.sidebarFullWidthInput {
+    width:242px;
+    width:242px;
+}
+
+input,select,textarea,button {
+    margin:0;
+    padding:0;
+    font-size:inherit;
+    font-style:inherit;
+    font-weight:inherit;
+    font-family:inherit;
+    color:inherit;
+}
+
+input,button,select,textarea {
+    font-family:inherit;
+    font-size:inherit;
+    line-height:inherit;
+}
+
+input {
+    line-height:normal;
+}
+
+button,input,optgroup,select,textarea {
+    margin:0;
+    font:inherit;
+    color:inherit;
+}
+
+#btnSubmitWhitePages:hover,#btnSubmitWhitePages:focus,.submitSearch:hover,.submitSearch:focus {
+    background-position:-283px -249px;
+}
+
+#btnSubmitWhitePages,.submitSearch {
+    background-position:-283px -217px;
+}
+
+#btnSubmitCollegeFinder,#btnSubmitYellowPages,#btnSubmitWhitePages,.submitSearch,.submitSend {
+    width:124px;
+    height:32px;
+    border:none;
+    text-indent:-1000em;
+}
+
+.clickableButton:hover,.clickableButton:focus {
+    background-color:#4dba12;
+}
+
+button,html input[type=button],input[type=reset],input[type=submit] {
+    -webkit-appearance:button;
+    cursor:pointer;
+}
+
+.clickableButton {
+    cursor:pointer;
+    margin:5px;
+}
+
+.well {
+    padding:8px!important;
+}
+
+.formRow label {
+    color:#000!important;
+}
+
+#frmWhitePages input.text,#frmWhitePages select,#frmWhitePages textarea {
+    border:1px solid #909090;
+}
+
+#frmWhitePages select {
+    margin-top:4px;
+    margin-left:4px;
+    padding:7.5px;
+    cursor:pointer;
+}
+
+.sidebarCityInput {
+    width:163px;
+}
+
+div#1x1_2,div#1x1_3 {
+    height:0!important;
+}
+
+input.text,textarea,#frmWhitePages input.text,#frmWhitePages textarea {
+    font-size:1.2em;
+    padding:8px;
+}
+
+@media (max-width: 766px) {
+    #logo img {
+        width:auto!important;
+        height:50px!important;
+    }
+
+    #logo {
+        width:158px;
+        display:inline-block;
+    }
+
+    .navbar-default .navbar-collapse,.navbar-default .navbar-form {
+        border:none!important;
+    }
+
+    .has-feedback .form-control {
+        padding-right:0;
+    }
+
+    .navbar.navbar-default,.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        background-color:#c52e1c!important;
+    }
+
+    .test {
+        width:300px;
+        display:inline-block;
+        position:absolute;
+        top:-5px;
+        left:173px;
+    }
+
+    input.form-control.ar-header-search-input {
+        padding:1px 0 0 4px !important;
+    }
+
+    .ar-search-form {
+        width:100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .ar-search-form {
+        width:80%;
+    }
+}
+
+@media (max-width: 524px) {
+    .test {
+        width:200px;
+        display:inline-block;
+        position:absolute;
+        top:-5px;
+        left:173px;
+    }
+
+    .ar-search-form {
+        width:100%;
+    }
+
+    .navbar-toggle {
+        margin-top:12px;
+    }
+}
+
+@media (max-width: 472px) {
+    #logo img {
+        width:auto!important;
+        height:40px!important;
+    }
+
+    #logo {
+        width:128px;
+        display:inline-block;
+    }
+}
+
+@media (max-width: 440px) {
+    #logo img {
+        width:auto!important;
+        height:40px!important;
+    }
+
+    .test {
+        left:125px;
+    }
+
+    #logo {
+        width:100px;
+        display:inline-block;
+    }
+}
+
+@media (max-width: 390px) {
+    #logo img {
+        width:auto!important;
+        height:35px!important;
+        width:auto!important;
+        height:30px!important;
+    }
+
+    .test {
+        left:100px;
+        left:75px;
+    }
+
+    #logo {
+        width:80px;
+        display:inline-block;
+        width:65px;
+        display:inline-block;
+    }
+
+    .site-navigation-inner .navbar-header .navbar-toggle {
+        margin-right:5px!important;
+    }
+}
+
+@media (max-width: 494px) {
+    .post-inner-content .title {
+        font-size:11px!important;
+    }
+}
+
+@media (max-width: 460px) {
+    .post-inner-content .title {
+        font-size:10px!important;
+    }
+}
+
+@media (max-width: 764px) {
+    .type-bird .clearAfter.floatRight.spaced {
+        float:none;
+    }
+}
+
+.entry-content {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    line-height:1.428571;
+}
+
+.textCenter {
+    text-align:center;
+}
+
+.halfs li,li.halfColumn {
+    width:297px;
+}
+
+.formCol,.col,.col610Left {
+    margin-right:16px;
+}
+
+div#1x1_2,div#1x1_3 {
+    height:0!important;
+}
+
+.entry-content a,p.textCenter a {
+    color:#4951a5;
+    text-decoration:underline;
+}
+
+@font-face {
+    font-display:swap;
+}
+
+.widget_custom_html {
+    text-align:center;
+}
+
+.main-content-area {
+    margin-top:0!important;
+}
+
+.ar-header-ad-row {
+    min-height:96px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:970px;
+    }
+}
+
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9 {
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.post-inner-content {
+    padding:0 10px!important;
+}
+
+.emph {
+    left:-18px!important;
+}
+
+div#secondary {
+    padding-right:0;
+}
+
+div.main-content-inner {
+    padding-left:0;
+}
+
+.bulletedList li,#sports ul li,#articleContent ul li {
+    padding-left:26px;
+    list-style-image:none;
+}
+
+.bulletedList li,.spacedList li,#sports ul li,#articleContent ul li {
+    padding:12px;
+    margin-left:12px;
+}
+
+.redText,.redText a.anchor {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:1.166667em;
+    margin:16px 0 10px;
+    margin-top:32px;
+    font-weight:500;
+    text-rendering:optimizeLegibility;
+    color:#ef2f27!important;
+}
+
+.rule {
+    border-bottom:1px solid #ef2f27;
+    padding-bottom:4px;
+}
+
+input.text,select,textarea {
+    border:1px solid #909090;
+}
+
+select {
+    padding:7.5px;
+    cursor:pointer;
+    color:#000;
+}
+
+.bulletedList li a {
+    margin-left:0;
+}
+
+#areacodes a {
+    float:left;
+    margin:0 16px;
+}
+
+div#231818953 {
+    margin-top:15px!important;
+}
+
+div#content {
+    background:#fff!important;
+}
+
+.state-content h2 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    margin:10px 0;
+    margin-top:10px!important;
+    color:#0b0c0c;
+    font-weight:500;
+    text-rendering:optimizeLegibility;
+}
+
+.buttonDepressedInner {
+    border-width:0 1px 1px 0 !important;
+    padding:0 15px!important;
+    border-color:#549e2c;
+}
+
+.flag-page .blue .buttonDepressedInner {
+    border-color:#4177d4!important;
+}
+
+.displayBlock {
+    display:block;
+}
+
+.clickableBlueButton:active .buttonDepressedInner {
+    border-color:#121a6e!important;
+}
+
+.clickableButton:active .buttonDepressedInner {
+    border-color:#a3ca8e!important;
+}
+
+.flag-page .buttonDepressedInner {
+    border-width:0 1px 1px 0 !important;
+    padding:0 15px!important;
+    border-color:#549e2c!important;
+}
+
+.flag-page .buttonDepressedInner,.buttonInner {
+    border:1px solid #a3ca8e!important;
+    border-radius:1px!important;
+}
+
+.flag-page #btnOrderFlag {
+    margin-right:8px!important;
+}
+
+.flag-page .blue {
+    background-color:#4177D4!important;
+    border-color:#39429e!important;
+}
+
+.flag-page .clickableButton {
+    cursor:pointer;
+    margin:5px;
+    color:#fff;
+    border:2px solid #1b6f02;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    font-weight:700;
+    display:inline-block;
+}
+
+.flag-page .blue .buttonInner {
+    border-color:#adc6ef #adc6ef #4177d4!important;
+}
+
+.flag-page #topBar,.flag-page .button,.flag-page .emph,.flag-page #parentCommonwealths ul a,.flag-page #collegeLander h1 {
+    text-shadow:#000 1px 1px 0;
+}
+
+.flags-list-header {
+    margin-top:0!important;
+}
+
+.buy-flags {
+    float:right;
+}
+
+.flag-page font {
+    color:#000;
+    display:inline;
+    font-family:arial,helvetica;
+    font-size:12px;
+}
+
+#menu-header ul li a {
+    cursor:pointer;
+    font-family:"Sans Pro",Helvetica,sans-serif;
+    font-size:16px;
+    font-weight:400;
+    line-height:25px!important;
+}
+
+#menu-header > li {
+    border-right:1px solid #C52E1C;
+    border-left:1px solid #8B1D10;
+    line-height:33px;
+}
+
+#menu-header > li:hover {
+    background:#C52E1C!important;
+}
+
+#menu-header > li:first-child {
+    -webkit-box-shadow:-1px 0 0 0 #c52e1c;
+    -moz-box-shadow:-1px 0 0 0 #c52e1c;
+    box-shadow:-1px 0 0 0 #c52e1c;
+}
+
+#menu-header > li:last-child {
+    -webkit-box-shadow:1px 0 0 0 #8b1d10;
+    -moz-box-shadow:1px 0 0 0 #8b1d10;
+    box-shadow:1px 0 0 0 #8b1d10;
+}
+
+input.form-control.ar-header-search-input {
+    border-radius:0;
+    padding:1px 42px 0 4px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    line-height:31px!important;
+}
+
+form#cse-search-box {
+    margin-bottom:23px!important;
+}
+
+.nav.navbar-nav {
+    margin-right:-20px;
+}
+
+span.caret.sparkling-dropdown {
+    display:none;
+}
+
+div#1x1_2,div#1x1_3 {
+    height:0!important;
+}
+
+@media (max-width: 768px) {
+    .nav.navbar-nav {
+        margin-right:0;
+    }
+
+    .navbar-default .navbar-toggle {
+        margin-right:33px!important;
+    }
+
+    span.caret.sparkling-dropdown {
+        display:block;
+    }
+}
+
+#menu-header .dropdown-menu li {
+    cursor:pointer;
+    padding:0;
+    border-top:1px solid #8b1d10;
+    background-color:#c52e1c;
+}
+
+#menu-header .dropdown-menu > li > a {
+    padding:7px 20px;
+}
+
+.search-res-codes {
+    margin-top:17px;
+}
+
+p.search-city-res {
+    font-size:14px;
+    margin:29px 0 0 5px;
+}
+
+.type-news li {
+    margin-left:0;
+    color:#000;
+}
+
+.type-news li:nth-child(2n + 1) {
+    background-color:#f2f3ff;
+}
+
+.type-news li,.stripedList li li,#sports ul li {
+    background-color:#fff;
+}
+
+.type-news li,.spacedList li,#sports ul li,#articleContent ul li {
+    padding:12px;
+    margin-left:12px;
+}
+
+.type-news li br,.type-news li p {
+    display:none;
+}
+
+.state-content-maps h2 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    margin:0 0 10px;
+    color:#0b0c0c;
+    font-weight:500;
+    text-rendering:optimizeLegibility;
+}
+
+.bgGray .sidebarBoxContent {
+    background-color:#ebebeb;
+    background-color:#ebebeb;
+    background-color:#ebebeb;
+}
+
+input.text,.sidebarBoxContent,textarea,.collegeCalloutContent {
+    box-shadow:inset 1px 1px 4px 1px #ccc;
+    -webkit-box-shadow:inset 1px 1px 4px 1px #ccc;
+    -moz-box-shadow:inset 1px 1px 4px 1px #ccc;
+}
+
+.sidebarBox,.sidebarBoxContent {
+    border:1px solid #000;
+    border-color:#909090;
+    border-color:#909090;
+    border:1px solid #000;
+    border:1px solid #000;
+    border-color:#909090;
+}
+
+.sidebarBoxContent {
+    padding:16px;
+    margin:0 2px 2px;
+    padding:16px;
+    margin:0 2px 2px;
+}
+
+.noIcon {
+    padding-left:18px;
+    padding-left:18px;
+}
+
+.bgGray {
+    background-color:#bfbfbf;
+    background-color:#bfbfbf;
+}
+
+.bgLightGray {
+    background-color:#eee;
+    background-color:#eee;
+}
+
+.bgYellow {
+    background-color:#decc00;
+    background-color:#decc00;
+    background-color:#decc00;
+}
+
+.bgYellow .sidebarBoxContent {
+    background-color:#f2f1c9;
+    background-color:#f2f1c9;
+    background-color:#f2f1c9;
+}
+
+.sidebarBoxContent a,.sidebarBoxContent p {
+    float:left;
+}
+
+.sidebarBoxContent ul li {
+    border-bottom:none!important;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+}
+
+.sidebarBox.rounded.bgGray {
+    text-align:left;
+}
+
+.select-list-prev-next .btn-group > .btn:first-child {
+    margin-left:0;
+    text-transform:capitalize;
+    margin-left:0;
+}
+
+.select-list-prev-next .btn-group > .btn,.btn-group-vertical > .btn {
+    position:relative;
+    float:left;
+}
+
+.select-list-prev-next .ar-states-detail-states-dropdown-btn {
+    border-radius:2px;
+    background:#AFBBC9;
+    padding-top:4px;
+    padding-bottom:4px;
+    margin-bottom:2px;
+    min-width:17ch;
+}
+
+.select-list-prev-next button {
+    text-transform:capitalize;
+    color:#000;
+}
+
+.select-list-prev-next .btn-group.open .dropdown-toggle {
+    -webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.select-list-prev-next .btn-group .dropdown-toggle:active,.btn-group.open .dropdown-toggle {
+    outline:0;
+}
+
+.select-list-prev-next .ar-states-detail-states-dropdown-btn:hover {
+    background:#fff;
+    box-shadow:0 3px 5px rgba(0,0,0,0.25) inset;
+}
+
+.select-list-prev-next .ar-states-detail-next-btn {
+    font-size:110%;
+    text-decoration:none;
+    color:#000;
+    border:solid 1px #fff;
+    min-width:17ch;
+    padding:4px 0;
+    text-align:left;
+}
+
+.select-list-prev-next .ar-states-detail-next-btn,.select-list-prev-next .ar-states-detail-next-btn {
+    color:#000!important;
+}
+
+.select-list-prev-next .ar-states-detail-next-btn:hover {
+    border:solid 1px #D0D2D2!important;
+}
+
+a.ar-states-detail-next-btn {
+    font-size:110%;
+    text-decoration:none;
+    color:#000!important;
+    border:solid 1px #fff;
+    min-width:17ch;
+    padding:4px 0;
+    text-align:left;
+}
+
+a.ar-states-detail-prev-btn {
+    font-size:110%;
+    text-decoration:none;
+    color:#000!important;
+    border:solid 1px #fff;
+    padding:4px;
+    text-align:left;
+    margin-right:3px;
+}
+
+.open > .dropdown-menu {
+    display:block;
+}
+
+.ar-states-detail-states-dropdown-menu > ul {
+    margin-top:-3px;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+    border-radius:0 4px 4px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    z-index:9999999;
+}
+
+.dropdown-menu {
+    position:absolute;
+    top:100%;
+    left:0;
+    z-index:1000;
+    display:none;
+    float:left;
+    min-width:160px;
+    padding:5px 0;
+    margin:2px 0 0;
+    color:#000;
+    font-size:14px;
+    text-align:left;
+    list-style:none;
+    background-color:#fff!important;
+    -webkit-background-clip:padding-box;
+    background-clip:padding-box;
+    border:1px solid #ccc;
+    border-radius:4px;
+    -webkit-box-shadow:0 6px 12px rgba(0,0,0,.175);
+    box-shadow:0 6px 12px rgba(0,0,0,.175);
+}
+
+.ar-states-detail-states-dropdown-menu > ul > li > a:hover {
+    background:#AFBBC9;
+    color:#000;
+}
+
+.select-list-prev-next .dropdown-menu > li > a {
+    color:#262626!important;
+    padding:3px 15px!important;
+}
+
+.select-list-prev-next .dropdown-menu > li {
+    padding:3px 15px!important;
+}
+
+.select-list-prev-next .dropdown-menu > li:hover,.select-list-prev-next .dropdown-menu > li:focus {
+    background:#afbbc9;
+}
+
+.ar-states-detail-prev-next-box ul > li > a {
+    font-size:100%;
+    text-decoration:none!important;
+}
+
+.ar-states-detail-share {
+    color:#000;
+    border-style:solid;
+    border-color:#000;
+    margin-bottom:5px;
+    padding-bottom:5px;
+    float:left;
+    width:100%;
+    border-width:0 0 1px;
+}
+
+.ar-states-detail-prev-next-box {
+    margin-bottom:25px;
+}
+
+.ar-states-topic-detail-h1 {
+    font-size:175%;
+    font-style:bold;
+    color:#294462;
+    font-weight:500;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    margin:16px 0 10px;
+    text-rendering:optimizeLegibility;
+}
+
+.coinRow img {
+    border:none;
+}
+
+.coinRow {
+    line-height:197px;
+    font-size:17px;
+    margin-bottom:15px;
+}
+
+.songs-list li {
+    color:#000;
+    padding-left:26px;
+    list-style-image:none;
+}
+
+.link-to-songs {
+    margin-top:-15px;
+}
+
+.subtitle-flowers {
+    margin-top:0;
+}
+
+.stripedList > li:nth-child(2n + 1),.stripedList > li:nth-child(2n + 1) li,#sports ul > li:nth-child(2n + 1),.stripedRows tr:nth-child(2n + 1) td {
+    background-color:#f2f3ff;
+    background-color:#f2f3ff;
+}
+
+.stripedList li,.stripedList li li,#sports ul li {
+    background-color:#fff;
+    background-color:#fff;
+}
+
+ol li {
+    padding:12px;
+    background:transparent;
+    list-style:decimal;
+    list-style-position:inside;
+}
+
+h2.sportsheader {
+    width:100%;
+    font-size:14px;
+    color:#000;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-weight:500;
+    margin:-10px 0 20px;
+}
+
+.bulletedList a {
+    margin-left:0;
+}
+
+.sportsContainer {
+    margin-left:6px;
+}
+
+.ar-adjust-old-yellowpages {
+    margin-top:10px;
+}
+
+p,.sidebarBox,.col300Right .ad,.spaced {
+    margin:0 0 16px;
+}
+
+.sprite {
+    background:transparent url(/images/sprite.png) scroll no-repeat 0 0;
+}
+
+.sidebarTitle {
+    margin:0;
+    padding:8px 2px 8px 40px;
+    font-size:1.1666667em;
+    position:relative;
+}
+
+.sidebarFullWidthInput {
+    width:242px;
+}
+
+.fullWidthInput {
+    width:254px;
+}
+
+select.fullWidthInput {
+    width:270px;
+}
+
+.sidebarCityInput {
+    width:163px;
+}
+
+.fullWidthCityInput {
+    width:185px;
+}
+
+#btnSubmitCollegeFinder,#btnSubmitYellowPages,#btnSubmitWhitePages,.submitSearch,.submitSend {
+    width:124px;
+    height:32px;
+    border:none;
+    text-indent:-1000em;
+}
+
+#btnSubmitCollegeFinder {
+    background-position:-283px 0;
+    margin-right:8px;
+}
+
+#btnSubmitCollegeFinder:hover,#btnSubmitCollegeFinder:focus {
+    background-position:-283px -32px;
+}
+
+#btnSubmitCollegeFinder:active {
+    background-position:-283px -64px;
+}
+
+#btnSubmitYellowPages {
+    background-position:-283px -96px;
+}
+
+#btnSubmitYellowPages:hover,#btnSubmitYellowPages:focus {
+    background-position:-283px -128px;
+}
+
+#btnSubmitYellowPages:active {
+    background-position:-283px -160px;
+}
+
+#btnSubmitWhitePages,.submitSearch {
+    background-position:-283px -217px;
+}
+
+#btnSubmitWhitePages:hover,#btnSubmitWhitePages:focus,.submitSearch:hover,.submitSearch:focus {
+    background-position:-283px -249px;
+}
+
+#btnSubmitWhitePages:active,.submitSearch:active {
+    background-position:-283px -281px;
+}
+
+.submitSend {
+    background-position:-283px -313px;
+}
+
+.submitSend:hover,.submitSend:focus {
+    background-position:-283px -345px;
+}
+
+.submitSend:active {
+    background-position:-283px -377px;
+}
+
+#poweredByYellowBook {
+    background-position:-283px -192px;
+    width:103px;
+    height:25px;
+    text-indent:-1000em;
+    font-size:.8em;
+}
+
+#frmYellowPages input.text,#frmYellowPages textarea {
+    font-size:1.2em;
+    padding:8px;
+}
+
+.spriteYellowPages {
+    width:22px;
+    height:22px;
+    background-position:-83px -1px;
+    left:10px;
+    margin-top:-10px;
+}
+
+.vertCenter {
+    position:absolute;
+    top:50%;
+}
+
+.ar-adjust-old-yellowpages .sidebarTitle {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    color:#000;
+    font-weight:400;
+}
+
+.statehood-content .blue {
+    background-color:#4177D4;
+    border-color:#39429e;
+}
+
+.statehood-content .buttonDepressedInner {
+    border-color:#4177d4;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    font-weight:700;
+    text-transform:none;
+}
+
+.statehood-content .blue .buttonInner {
+    border-color:#adc6ef #adc6ef #4177d4;
+}
+
+.statehood-content .blue .buttonDepressedInner {
+    border-color:#4177d4;
+}
+
+.statehood-content .darkBlue {
+    background-color:#202a8f;
+    border-color:#11196a;
+}
+
+.statehood-content .darkBlue .buttonInner {
+    border-color:#898fc4 #898fc4 #202a8f!important;
+}
+
+.statehood-content .darkBlue .buttonDepressedInner {
+    border-color:#13346d;
+}
+
+.statehood-content .clickableDarkBlueButton:hover,.clickableDarkBlueButton:focus {
+    background-color:#121a6e;
+}
+
+.statehood-content .buttonDepressedInner,.buttonInner {
+    border:1px solid #a3ca8e;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-bottom:none!important;
+    border-right:none!important;
+    border-radius:1px;
+}
+
+.statehood-content .buttonInner {
+    border-width:1px 0 0 1px;
+    background-position:0 -100px;
+    background-repeat:repeat-x;
+}
+
+.statehood-content .clickableBlueButton {
+    padding:2px;
+    text-shadow:#000 1px 1px 0;
+}
+
+.statehood-content .clickableBlueButton:hover {
+    color:#fff!important;
+    text-decoration:underline;
+}
+
+.statehood-content .stripedRows td,.statehood-content .stripedRows th,.statehood-content .spacedRows th,.statehood-content .spacedRows td {
+    padding:8px;
+    background-color:#eee;
+    border:1px solid #ccc;
+}
+
+.statehood-content .stripedRows tbody:first-child {
+    background-color:#eee!important;
+}
+
+.statehood-content .stripedRows tr:nth-child(2n + 1) td {
+    background-color:#f2f3ff!important;
+}
+
+.statehood-content .stripedRows tr:nth-child(2n) td {
+    background-color:#fff!important;
+}
+
+.cityguides .entry-content a {
+    margin-right:4px;
+}
+
+.cityguides hr {
+    border-top:1px solid #ccc;
+}
+
+h1,h2,h3,h4,.ruleBorder {
+    margin:16px 0 10px;
+    text-rendering:optimizeLegibility;
+}
+
+.bird h4 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    color:#000;
+    font-weight:500;
+    margin:16px 0 10px;
+}
+
+.bird h2 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    color:#000;
+    font-weight:500;
+    margin:16px 0 10px;
+}
+
+u {
+    text-decoration:underline;
+}
+
+ul#menu-menu-footer-1 {
+    padding-bottom:7px;
+}
+
+#menu-header .dropdown-menu li:hover,#menu-header .dropdown-menu .current-menu-item {
+    background-color:#9d2314;
+}
+
+.type-news li,#sports ul li,#articleContent ul li,.bulletedList li,#sports ul li,#articleContent ul li {
+    padding-left:26px;
+    list-style-image:none;
+}
+
+.select-list-prev-next .ar-states-detail-prev-next-box,.floatRight {
+    float:right;
+}
+
+#treeTopicContent .smallText,.entry-content .smallText {
+    color:#000;
+    font-size:10px;
+}
+
+#treeTopicContent,.state-content > strong,.content-area {
+    color:#000;
+}
+
+#sports ul,.formRow {
+    margin:16px 0;
+}
+
+#frmCollegeFinder select,#frmYellowPages p {
+    width:100%;
+}
+
+.statehood-content .clickableBlueButton:hover,.statehood-content .clickableBlueButton:focus,.statehood-content .clickableBlueButton:hover,.clickableBlueButton:focus {
+    background-color:#6295ed;
+}
+
+.statehood-content .clickableBlueButton:active .buttonDepressedInner,.statehood-content .clickableDarkBlueButton:active .buttonDepressedInner {
+    border-color:#121a6e;
+}
+
+.statehood-content .clickableBlueButton:active .buttonInner,.statehood-content .clickableDarkBlueButton:active .buttonInner {
+    border-color:#000;
+}
+
+@media (max-width: 991px) {
+    .ar-hp-states-capitals-box .ar-hp-states-capitals-gradient {
+        width:98.5%;
+    }
+
+    .content-main .ar-hp-states-capitals-box {
+        margin-left:0;
+        border:none;
+        width:99.4%;
+    }
+
+    .content-main .ar-hp-state-facts-box,.inner-content-main .content-main .ar-hp-quizzes-box {
+        margin-left:0!important;
+    }
+
+    .row.ar-row-full-width.ar-hp-state-facts-box,.row.ar-row-full-width.ar-hp-quizzes-box {
+        width:97.9%;
+    }
+
+    .inner-content-main .content-main .ar-hp-community-info-box {
+        background:none;
+    }
+
+    .site-content .ar-main-body-content {
+        padding:0;
+    }
+
+    .floatRight.col300Right.ar-verticals-right-adjust {
+        width:100%;
+    }
+
+    .main-content-area .ar-column-full-width .ar-sidebar {
+        float:left;
+        width:98%;
+        margin-right:0!important;
+    }
+
+    .ar-college-finder-background {
+        background-size:100%;
+    }
+}
+
+@media (max-width: 720px) {
+    .ar-hp-states-capitals-box .ar-hp-states-capitals-gradient {
+        width:99.3%;
+    }
+
+    .content-main .ar-hp-states-capitals-box {
+        width:98.4%;
+    }
+
+    .row.ar-row-full-width.ar-hp-state-facts-box,.row.ar-row-full-width.ar-hp-quizzes-box {
+        width:97.6%;
+    }
+
+    .main-content-area .ar-column-full-width .ar-sidebar {
+        width:97.7%;
+    }
+}
+
+#mid-spon iframe {
+    margin:0 8px;
+}
+
+.ar-hp-states-capitals-box {
+    font-size:12pt;
+    border-width:1px;
+    border-color:#D0D2D2;
+    border-style:solid;
+    margin-bottom:20px;
+    margin-left:15px;
+}
+
+.ar-sidebar a:hover,.ar-sidebar a:focus {
+    color:#2a6496!important;
+}
+
+.ar-hp-states-capitals-gradient {
+    background:#fff;
+    background-image:-webkit-linear-gradient(#CDCAC5,#FFF);
+    background-image:-moz-linear-gradient(#CDCAC5,#FFF);
+    background-image:-ms-linear-gradient(#CDCAC5,#FFF);
+    background-image:-o-linear-gradient(#CDCAC5,#FFF);
+    background-image:linear-gradient(top bottom,#CDCAC5,#FFF);
+    width:100%;
+}
+
+.ar-hp-states-capitals-margin {
+    font-size:100%;
+    padding-left:2em;
+}
+
+.ar-hp-states-capitals-text {
+    font-size:100%;
+    color:#43484E;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:16px;
+}
+
+.ar-hp-states-capitals-margin .ar-hp-states-capitals-h1 {
+    font-size:200%;
+    color:#294462;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:32px!important;
+    font-weight:500;
+}
+
+.ar-column-full-width .ar-hp-states-list-h1 {
+    font-size:200%;
+    color:#294462;
+    margin:-2px 0 10px;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:32px!important;
+    font-weight:500;
+}
+
+.ar-zero-width {
+    width:0!important;
+}
+
+.ar-hp-states-capitals-links > ul > li {
+    padding-top:.4em;
+}
+
+.ar-hp-states-capitals-links > ul > li > a {
+    font-size:100%!important;
+    color:#0072BC!important;
+    text-decoration:none;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:16px!important;
+    line-height:22.8571px!important;
+}
+
+.ar-hp-states-capitals-links > ul > li > a:hover {
+    color:#83BDE3!important;
+}
+
+.ar-hp-state-facts-box {
+    border-width:1px;
+    border-color:#D0D2D2;
+    border-style:solid;
+    background:#F7F6F5;
+    margin-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:15px!important;
+}
+
+.ar-hp-state-facts-h1 {
+    font-size:200%;
+    color:#294462;
+    margin-left:5px;
+}
+
+.ar-hp-state-facts-links > ul > li {
+    border-width:1px;
+    border-color:#E0E0E0;
+    border-style:solid;
+    text-align:center;
+    margin:5px 5px 10px;
+    background:#fff;
+}
+
+.ar-hp-state-facts-links-img {
+    margin-top:5px;
+}
+
+.ar-hp-state-facts-links-text {
+    margin-bottom:5px;
+}
+
+.ar-hp-state-facts-links > ul > li:hover {
+    color:#B3BDE3;
+    background:#DFE5E7;
+}
+
+.content-main .ar-hp-quizzes-box {
+    border-width:1px;
+    border-color:#D0D2D2;
+    border-style:solid;
+    background:#F7F6F5;
+    margin-bottom:10px;
+    margin-left:15px!important;
+}
+
+.ar-hp-quizzes-margin {
+    font-size:100%;
+    padding-left:2em;
+    padding-right:2em;
+}
+
+.content-main h1 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:24px;
+    font-weight:500;
+}
+
+.ar-hp-quizzes-text {
+    font-size:125%;
+    color:#000;
+    margin-bottom:20px;
+}
+
+.ar-hp-quizzes-links {
+    padding-top:10px;
+    text-align:center;
+}
+
+.ar-hp-quizzes-links:hover {
+    background:#DFE5E7;
+    margin-left:0;
+    margin-right:0;
+}
+
+.content-main .ar-hp-community-info-box {
+    margin-bottom:0;
+    background:#fff;
+    margin-left:15px!important;
+}
+
+.ar-hp-community-info-links > ul > li {
+    padding-top:.5em;
+}
+
+.ar-hp-community-info-links > ul > li > a:hover {
+    color:#B3BDE3;
+    text-decoration:underline;
+}
+
+#ar-full-homepage {
+    display:block;
+}
+
+.ar-main-body-content {
+    background:none repeat scroll 0 0 #fff;
+    padding:0 0 10px 16px !important;
+}
+
+.ar-body-content {
+    margin-right:auto;
+    margin-left:auto;
+    font-family:Arial,Verdoana,Tahoma,sans-serif!important;
+    font-size:12px;
+}
+
+.ar-row-full-width {
+    margin-left:0!important;
+    margin-right:0!important;
+}
+
+.ar-sidebar a {
+    color:#4951a5;
+}
+
+.ar-sidebar {
+    margin-right:14px!important;
+    background:none repeat scroll 0 0 #fff;
+    width:300px;
+    float:right;
+}
+
+.ar-college-finder-box {
+    background:#DFE5E7;
+    border-style:solid;
+    border-width:1px;
+    border-color:#DFE5E7;
+    font-size:125%;
+    color:#294462;
+    margin-bottom:15px;
+}
+
+.ar-college-finder-background {
+    background-image:url(/images/redesign/homepage/collegegirl.jpg);
+    background-repeat:no-repeat;
+    height:170px;
+}
+
+.ar-college-finder-text {
+    margin-left:2em;
+}
+
+.ar-college-finder-h1 {
+    font-size:24px;
+    color:#294462;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-weight:700;
+}
+
+.ar-college-finder-links {
+    background:#fff;
+    padding:0;
+}
+
+.ar-college-finder-link {
+    background:#fff;
+    background-image:-webkit-linear-gradient(#FFF,#EAEAEA);
+    background-image:-moz-linear-gradient(#FFF,#EAEAEA);
+    background-image:-ms-linear-gradient(#FFF,#EAEAEA);
+    background-image:-o-linear-gradient(#FFF,#EAEAEA);
+    background-image:linear-gradient(top bottom,#FFF,#EAEAEA);
+    border-style:solid;
+    border-width:1px 1px 1px 0;
+    border-color:#DFE5E7;
+    padding-top:5px;
+    text-align:center;
+}
+
+.ar-college-finder-links > ul > li:hover {
+    background:#DFE5E7;
+}
+
+.ar-college-finder-link > a {
+    text-decoration:none;
+}
+
+.ar-college-finder-link > a > p {
+    margin-bottom:.3em;
+}
+
+.ar-yellow-pages-box {
+    background:#FFF9E9;
+    border-width:1px;
+    border-color:#D0D2D2;
+    border-style:solid;
+    margin-bottom:10px;
+}
+
+.ar-yellow-pages-margin {
+    padding-left:2em;
+}
+
+.ar-yellow-pages-h1 {
+    font-size:200%;
+    font-weight:700;
+    color:#000;
+}
+
+.ar-yellow-pages-button-adjust {
+    text-align:center;
+    padding-top:.5em;
+}
+
+.ar-yellow-pages-input-adjust {
+    padding-bottom:1em;
+}
+
+.ar-yellow-pages-button {
+    background:none repeat scroll 0 0 transparent!important;
+    border:medium none transparent;
+    overflow:visible;
+}
+
+#ar-yellow-pages-poweredby {
+    margin-top:.3em;
+    font-size:100%;
+}
+
+.ar-100-percent {
+    width:100%;
+}
+
+.ar-home-page-err-msg {
+    color:#000;
+}
+
+.ar-states-detail-share {
+    color:#000;
+    border-style:solid;
+    border-color:#000;
+    margin-bottom:5px;
+    padding-bottom:5px;
+    float:left;
+    width:100%;
+    border-width:0 0 1px;
+}
+
+.ar-states-detail-state-name-box {
+    text-align:left;
+}
+
+.state-name-box-default-temp {
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+.ar-states-detail-next-btn {
+    font-size:110%;
+    text-decoration:none;
+    color:#000;
+    border:solid 1px #fff;
+    min-width:17ch;
+    padding:4px 0;
+    text-align:left;
+}
+
+.ar-states-detail-prev-btn {
+    font-size:110%;
+    text-decoration:none;
+    color:#000;
+    border:solid 1px #fff;
+    min-width:17ch;
+    padding:4px 0;
+    text-align:right;
+}
+
+.ar-states-detail-states-dropdown-btn:hover {
+    background:#fff;
+    box-shadow:0 3px 5px rgba(0,0,0,0.25) inset;
+}
+
+.ar-states-detail-states-dropdown-btn {
+    border-radius:2px;
+    background:#AFBBC9;
+    padding-top:4px;
+    padding-bottom:4px;
+    margin-bottom:2px;
+    min-width:17ch;
+}
+
+.ar-states-detail-states-dropdown-menu > ul {
+    margin-top:-3px;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+    border-radius:0 4px 4px;
+}
+
+.ar-states-detail-states-dropdown-menu > ul > li > a {
+    font-size:100%!important;
+    text-decoration:none;
+    padding-top:.25em;
+    padding-bottom:.25em;
+}
+
+.ar-states-detail-states-dropdown-menu > ul > li > a:hover {
+    background:#AFBBC9;
+    color:#000;
+}
+
+.ar-states-detail-h1 {
+    font-size:175%;
+    font-style:bold;
+    color:#294462;
+}
+
+.ar-states-detail-overview {
+    background:#fff;
+    text-align:center;
+    padding-top:5px;
+    margin-left:2px;
+    margin-right:2px;
+    border:solid 1px #2E577d;
+}
+
+.ar-states-detail-overview:hover {
+    border:solid 1px #AFBBC9;
+}
+
+.ar-states-detail-overview-image {
+    text-align:center;
+    height:106px;
+    vertical-align:middle;
+}
+
+.ar-states-detail-overview-text {
+    font-size:125%;
+    text-align:center;
+    color:#fff;
+    background:#2E577d;
+    text-decoration:none!important;
+}
+
+.ar-states-detail-overview-text:hover {
+    text-decoration:none!important;
+}
+
+.ar-states-detail-counter-text {
+    margin-top:-10px;
+}
+
+.ar-states-detail-radio-box {
+    color:#000;
+    border-style:solid;
+    border-color:#000;
+    margin-top:1em;
+    margin-bottom:1em;
+    padding-top:.5em;
+    padding-bottom:.5em;
+    border-width:1px 0;
+}
+
+.ar-states-detail-radio-input-left {
+    margin-right:10px;
+}
+
+.ar-states-detail-radio-input-right {
+    margin-left:5px;
+}
+
+.ar-states-detail-panel-group {
+    margin-bottom:0;
+}
+
+.ar-states-detail-panel-box {
+    border-color:#AFBBC9;
+    border-width:3px;
+    border-style:solid;
+    border-radius:0!important;
+    background:#AFBBC9;
+}
+
+.ar-states-detail-panel-heading {
+    color:#fff;
+    background:#AFBBC9!important;
+    cursor:pointer;
+}
+
+.ar-states-detail-panel-heading > h4 > a {
+    color:#fff;
+    text-decoration:none;
+}
+
+.ar-states-detail-title {
+    color:#43484E;
+    font-size:110%;
+    padding-left:0;
+}
+
+.ar-states-detail-fact-block {
+    margin-left:2ch;
+}
+
+.ar-states-detail-panel-body {
+    background:#fff;
+}
+
+.ar-states-detail-panel-body > ul > li {
+    margin-top:.5em;
+    margin-bottom:.5em;
+}
+
+.ar-states-detail-panel-body > ul > li > a {
+    color:#0072BC;
+}
+
+.ar-states-detail-panel-glyphicon.collapsed .ar-states-detail-minus {
+    display:inline-block;
+}
+
+.wpcf7 input.text,.wpcf7 select,.wpcf7 textarea {
+    border:1px solid #909090;
+    border-radius:0;
+}
+
+.wpcf7 input.text,.wpcf7 textarea {
+    font-size:1.2em;
+    padding:8px;
+}
+
+.wpcf7 input.text,.wpcf7 .sidebarBoxContent,.wpcf7 textarea,.wpcf7 .collegeCalloutContent {
+    box-shadow:inset 1px 1px 4px 1px #ccc;
+    -webkit-box-shadow:inset 1px 1px 4px 1px #ccc;
+    -moz-box-shadow:inset 1px 1px 4px 1px #ccc;
+}
+
+.wpcf7 input.text:focus,.wpcf7 select:focus,.wpcf7 textarea:focus {
+    border-color:#000;
+}
+
+.main-content-area .main-content-inner,.main-content-area .ar-column-full-width {
+    padding:0;
+}
+
+.ar-hp-commonwealth-menu,.ar-states-detail-states-dropdown-menu {
+    font-size:100%;
+    margin-top:.4em;
+    margin-bottom:.5em;
+}
+
+.ar-hp-state-facts-links > ul > li > a,.ar-hp-quizzes-links > a,.ar-hp-community-info-links > ul > li > a {
+    font-size:125%!important;
+    color:#0072BC!important;
+    text-decoration:none;
+}
+
+.ar-hp-quizzes-h1,.ar-hp-community-info-h1 {
+    font-size:200%;
+    color:#294462;
+}
+
+.ar-states-detail-prev-next-box,.ar-states-detail-panel-glyphicon {
+    float:right;
+}
+
+.ar-states-detail-prev-btn:hover,.ar-states-detail-next-btn:hover {
+    border:solid 1px #D0D2D2!important;
+}
+
+.ar-states-detail-radio-input-left > input,.ar-states-detail-radio-input-right > input {
+    margin-top:0!important;
+    margin-bottom:2px!important;
+    vertical-align:middle;
+}
+
+.ar-states-detail-panel-glyphicon .ar-states-detail-minus,.ar-states-detail-panel-glyphicon.collapsed .ar-states-detail-plus {
+    display:none;
+}
+
+@media (max-width: 464px) {
+    .wpcf7 input.text,.wpcf7 input.email {
+        width:100%;
+    }
+}
+
+.entry-content .states-download-button {
+    position:relative;
+    float:right;
+    top:-30px;
+    background-color:#326df7;
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    padding:5px;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.tightList li {
+    padding:6px 6px 6px 14px;
+    background-position:6px 1.2em;
+}
+
+.thelist {
+    float:left;
+    width:50%;
+}
+
+.entry-content .thelist td {
+    border:none;
+    padding:5px;
+}
+
+.entry-content h2 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    color:#000;
+    margin-top:0;
+    font-weight:500;
+}
+
+.states-table {
+    margin-top:21px;
+}
+
+.entry-content .table-hover>tbody>tr:hover {
+    background-color:#fff!important;
+}
+
+.abbreviations-table.stripedRows th {
+    background-color:#eee;
+}
+
+.abbreviations-table.stripedRows td,.abbreviations-table.stripedRows th,.abbreviations-table.spacedRows th,.abbreviations-table.spacedRows td {
+    padding:8px;
+    border:1px solid #ccc;
+}
+
+.threeColumnParent {
+    width:178px;
+    padding:0 12px;
+}
+
+#publicRecords li {
+    padding:12px;
+}
+
+#publicRecords ul {
+    margin:12px 0 24px;
+}
+
+#realEstate {
+    line-height:3;
+}
+
+.sidebarBoxContent a {
+    color:#4951a5!important;
+    text-decoration:underline;
+}
+
+.clear {
+    clear:both;
+    width:100%;
+}
+
+.question {
+    display:none;
+    background:#fff;
+    position:absolute;
+    left:0;
+    top:30px;
+    z-index:2000;
+    width:575px;
+    height:530px;
+}
+
+#next {
+    position:absolute;
+    left:550px;
+    top:300px;
+    z-index:2000;
+    width:52px;
+    color:#6FAF4A;
+    font-weight:700;
+    font-size:14px;
+    text-decoration:none;
+}
+
+.hover-over {
+    position:absolute;
+    top:30px;
+    width:200px;
+    left:0;
+    display:none;
+    cursor:pointer;
+    padding:10px;
+    font-size:14px;
+    background-color:#fff;
+    color:#404040;
+    box-shadow:-5px 0 5px 1px #aaa;
+    border:solid 1px #ccc;
+}
+
+.qhead {
+    font-size:20px;
+    padding:10px 0;
+    color:#12196D;
+}
+
+.qanswers {
+    font-size:16px;
+}
+
+.aword {
+    font-size:20px;
+    display:table-cell;
+    width:245px;
+    height:188px;
+    vertical-align:middle;
+}
+
+.correct_answer_no_check .aword {
+    color:#FFF;
+    font-weight:700;
+    height:188px;
+    padding:15px;
+    text-align:center;
+}
+
+.wrong_answer {
+    float:left;
+    width:245px;
+    height:245px;
+    margin:0 25px 25px 0;
+    border:solid 1px #ccc;
+    background-color:#EF2F27;
+    color:#fff;
+}
+
+.no_answer {
+    float:left;
+    width:245px;
+    height:245px;
+    margin:0 25px 25px 0;
+    border:solid 1px #ccc;
+    background-color:#9CBAEB;
+    color:#fff;
+}
+
+.qword {
+    color:#FFF;
+    font-weight:700;
+    padding:15px 0 0 10px;
+}
+
+.check {
+    display:none;
+    width:100%;
+    height:30px;
+}
+
+.check img {
+    background-color:#FFF;
+    border-radius:25px;
+    margin-left:204px;
+    margin-top:-7px;
+    padding:8px 8px 9px 9px;
+}
+
+.adesc {
+    font-size:14px;
+    margin:0 0 0 10px;
+    color:#fff;
+}
+
+#progress {
+    width:510px;
+    float:left;
+}
+
+#progress.ui-progressbar {
+    position:relative;
+    height:2em;
+    border:none;
+    background:#F4F4F4;
+}
+
+#progress span {
+    position:static;
+    margin-top:-2.1em;
+    margin-left:250px;
+    display:block;
+    line-height:2em;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#progress[aria-valuenow="0"] span {
+    margin-top:0;
+}
+
+.go {
+    padding:6px;
+    width:60px;
+    height:36px;
+    margin-top:-5px;
+    font-weight:700;
+    color:#fff;
+    background-color:#68AC41!important;
+    border-color:#3f6728!important;
+}
+
+.correct_head {
+    float:right;
+    margin-top:-17px;
+}
+
+.correct_label {
+    float:right;
+    margin-right:5px;
+}
+
+.correct,.incorrect {
+    float:right;
+    margin-right:5px;
+    height:27px;
+    width:42px;
+    font-weight:700;
+    text-align:center;
+    border-radius:4px;
+    background-color:#F4F4F4;
+}
+
+.correct {
+    background:none repeat scroll 0 0 rgba(38,127,0,0.1);
+}
+
+.incorrect {
+    background:none repeat scroll 0 0 rgba(255,0,0,0.1);
+}
+
+.score {
+    float:left;
+    margin-right:5px;
+    height:75px;
+    width:75px;
+    font-weight:700;
+    text-align:center;
+    border-radius:4px;
+    background-color:#F4F4F4;
+}
+
+#num_incorrect {
+    color:#EE2E26;
+    margin-top:5px;
+}
+
+#num_correct {
+    color:#6EAE4A;
+    margin-top:5px;
+}
+
+#current_score {
+    color:#6EAE4A;
+    font-size:22px;
+    margin-top:23px;
+}
+
+#previous_score {
+    color:#ccc;
+    font-size:22px;
+    margin-top:23px;
+}
+
+.score_label {
+    font-size:12px;
+    width:80px;
+    float:left;
+    color:#fff;
+}
+
+#more {
+    float:right;
+    width:295px;
+    margin-top:-20px;
+}
+
+#scores {
+    float:left;
+    width:170px;
+}
+
+.final-link {
+    float:left;
+    font-size:14px;
+    margin-top:14px;
+}
+
+.quiz-menu {
+    font-size:14px;
+    margin-top:10px;
+}
+
+.shareText {
+    font-size:14px;
+}
+
+#share-final {
+    float:right;
+    width:160px;
+}
+
+#final-box {
+    background-color:#0C1770;
+    height:359px;
+    width:604px;
+}
+
+#medal {
+    background-color:#FFF;
+    border-radius:61px;
+    float:left;
+    margin:27px 35px 27px 27px;
+    padding:20px 20px 18px 21px;
+}
+
+#share-challenge {
+    float:right;
+    margin-top:15px;
+    width:315px;
+}
+
+.challenge {
+    color:#FFF;
+    float:left;
+    font-size:12px;
+    margin-right:20px;
+    margin-top:9px;
+    width:124px;
+}
+
+#share {
+    height:40px;
+}
+
+#box-head {
+    color:#FFF;
+    font-size:16px;
+    padding:20px;
+}
+
+#more-quiz {
+    width:554px;
+    float:right;
+    margin-right:20px;
+}
+
+#restart,#learn-more,#take-another {
+    background-color:#FFF;
+    height:50px;
+    margin-bottom:10px;
+}
+
+#restart img,#learn-more img,#take-another img {
+    width:30px;
+}
+
+.icon {
+    float:left;
+    width:30px;
+    margin:10px 15px 10px 10px;
+}
+
+.answer,.index_answer {
+    position:relative;
+    float:left;
+    width:245px;
+    height:245px;
+    margin:0 25px 25px 0;
+    border:solid 1px #ccc;
+    background-color:#3975D7;
+    color:#fff;
+    cursor:pointer;
+}
+
+.index_answer a,.answer a {
+    text-decoration:none;
+}
+
+.answer .aword,.no_answer .aword {
+    color:#FFF;
+    font-weight:700;
+    padding:15px;
+    text-align:center;
+}
+
+.correct_answer,.correct_answer_no_check {
+    float:left;
+    width:245px;
+    height:245px;
+    margin:0 25px 25px 0;
+    border:solid 1px #ccc;
+    background-color:#6FAF4A;
+    color:#fff;
+}
+
+.correct_answer .aword,.wrong_answer .aword {
+    color:#FFF;
+    font-weight:700;
+    height:128px;
+    padding:15px;
+    text-align:center;
+}
+
+@media (max-width: 540px) {
+    .ar-college-finder-link {
+        min-height:114px;
+    }
+}
+
+@media (max-width: 500px) {
+    .entry-content #progress-container #progress {
+        width:75%!important;
+    }
+}
+
+@media (max-width: 420px) {
+    input#txtSearchQuery {
+        width:100%;
+    }
+
+    .entry-content #progress-container #progress {
+        width:72%!important;
+    }
+}
+
+@media (max-width: 380px) {
+    .entry-content #progress-container #progress {
+        width:69%!important;
+    }
+}
+
+@media (max-width: 340px) {
+    .entry-content #progress-container #progress {
+        width:67%!important;
+    }
+}
+
+@media (max-width: 327px) {
+    .entry-content #progress-container #progress {
+        width:64%!important;
+    }
+}
+
+@media (max-width: 720px) {
+    .entry-content #progress-container #progress {
+        width:80%;
+    }
+
+    #progress span {
+        margin-left:48%;
+    }
+
+    .hover-over {
+        width:99%;
+    }
+
+    .progressText {
+        display:none;
+    }
+
+    #progress-container {
+        height:25px;
+    }
+
+    .question {
+        position:relative;
+        margin-top:5px;
+        height:100%;
+    }
+
+    .index_answer,.index_answer img,.question {
+        width:100%;
+    }
+
+    .index_answer img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        max-height:73%;
+        width:auto;
+        max-width:100%;
+    }
+
+    .qanswers {
+        font-size:15px;
+    }
+
+    .answer,.correct_answer_no_check,.correct_answer,.wrong_answer,.no_answer {
+        width:48.8%;
+        height:100%;
+        margin:1px;
+    }
+
+    .index_answer {
+        width:48.8%;
+        height:150px;
+        margin:0 1px;
+    }
+
+    .aword {
+        width:48.8%;
+        height:150px;
+        margin:10px;
+    }
+
+    .answer .aword {
+        padding:5px;
+        text-align:center;
+    }
+
+    .correct_answer .aword {
+        height:70px;
+        padding:5px;
+    }
+
+    .correct_answer_no_check .aword {
+        height:150px;
+        padding:5px;
+    }
+
+    .qword {
+        margin-top:-15px;
+    }
+
+    .check {
+        height:22px;
+    }
+
+    .check img {
+        margin-left:62%;
+        margin-top:5px;
+        padding:8px 8px 9px 9px;
+    }
+
+    #next {
+        position:absolute;
+        top:438px;
+        left:43%;
+        width:38px;
+    }
+
+    #final-box {
+        width:100%;
+        height:630px;
+        font-size:16px;
+    }
+
+    #scores {
+        height:180px;
+        float:none;
+        margin-left:50%;
+    }
+
+    .score_label,.challenge {
+        font-size:1.1em;
+    }
+
+    #restart,#learn-more,#take-another {
+        background-color:#FFF;
+        height:50px;
+        margin-bottom:10px;
+        margin-left:20px;
+    }
+
+    #box-head {
+        font-size:15px;
+        padding:20px 1px 5px 10px;
+    }
+
+    #medal {
+        background-color:#FFF;
+        border-radius:61px;
+        float:left;
+        margin:22px 30px 22px 22px;
+    }
+
+    .question #go {
+        background-color:#68AC41!important;
+    }
+
+    #more {
+        float:right;
+        width:295px;
+        margin-top:-20px;
+        margin-left:20px;
+    }
+
+    #more-quiz {
+        width:554px;
+        float:right;
+        margin-right:15px;
+    }
+
+    .challenge {
+        width:100%;
+        margin-bottom:20px;
+        margin-left:20px;
+        line-height:1em;
+        clear:both;
+    }
+
+    .wrong_answer .aword,.no_answer .aword {
+        padding:5px;
+    }
+}
+
+.ar-college-finder-link p {
+    color:#4951a5;
+    font-size:15px;
+}
+
+.padded {
+    padding:16px!important;
+}
+
+.school-list .blue {
+    background-color:#4177D4;
+    border-color:#39429e;
+}
+
+.school-list .blue .buttonInner {
+    border-color:#adc6ef #adc6ef #4177d4;
+}
+
+.school-list .blue .buttonDepressedInner {
+    border-color:#4177d4;
+}
+
+.school-list .clickableBlueButton:hover,.clickableBlueButton:focus {
+    background-color:#6295ed;
+}
+
+.school-list .clickableBlueButton:active .buttonDepressedInner {
+    border-color:#121a6e;
+}
+
+.school-list .buttonInner {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px!important;
+    font-weight:700;
+    color:#fff;
+    padding:0!important;
+    line-height:21.6px;
+}
+
+.school-list .school-button {
+    border-radius:5px!important;
+    border-color:#121a6e!important;
+    border:2px solid;
+    border-top:2px solid #1C6EA4;
+}
+
+.school-list .school-button .buttonDepressedInner {
+    padding:1px 22px!important;
+}
+
+.buttonDepressedInner,.buttonInner {
+    border:none!important;
+}
+
+.school-button span.displayBlock.buttonInner {
+    border-top:1px solid #7dc2d7!important;
+}
+
+.listSchoolsPage li.quarterColumn {
+    width:140px;
+}
+
+.sidebarBoxSchools.rounded.bgGray {
+    min-width:300px;
+}
+
+.sidebarPadded {
+    padding:5px 8px 10px 0;
+}
+
+#sidebar {
+    border-width:1px 0 0;
+    background:transparent url(/images/sidebar_gradient.gif) scroll repeat-x 0 0;
+    margin-left:1px;
+    background-color:#4178d5;
+}
+
+#sidebar h2 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    font-weight:500;
+    color:#fff;
+}
+
+#sidebar .smallText {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:10px;
+    font-weight:500;
+    color:#fff;
+}
+
+#sidebar .rule {
+    border-color:#39429E;
+}
+
+#sidebar .ruleBorder {
+    border-bottom:1px solid #adc6ef;
+}
+
+#states,.activeState ul {
+    padding:2px 4px;
+}
+
+.ar-center-school-box #collegeLander {
+    width:465px;
+    height:367px;
+    border:4px solid #000;
+    position:relative;
+    background:transparent url(/images/colleges/college.jpg) no-repeat scroll 0 0;
+    margin-top:23px;
+}
+
+.ar-center-school-box #collegeLander.schoolTypeBusinessSchools {
+    background-image:url(/images/colleges/business.jpg);
+}
+
+.ar-center-school-box #collegeLander.schoolTypeNursingschools {
+    background-image:url(/images/colleges/nursing.jpg);
+}
+
+.ar-center-school-box #collegeLander.schoolTypeArtDesignSchools {
+    background-image:url(/images/colleges/artist.jpg);
+}
+
+.ar-center-school-box #collegeLander.schoolTypeCc {
+    background-image:url(/images/colleges/student.jpg);
+}
+
+.ar-center-school-box #collegeLander h1 {
+    padding:8px;
+    margin:0;
+    background-color:#363127;
+    opacity:.8;
+    filter:alpha(opacity=80);
+    border-bottom:1px solid #000;
+}
+
+.ar-center-school-box #collegeFinder {
+    position:absolute;
+    bottom:8px;
+    left:8px;
+    width:245px;
+    border-width:4px;
+    background-color:#39429E;
+    opacity:.9;
+    filter:alpha(opacity=90);
+}
+
+.ar-center-school-box #collegeFinder .innerHighlight {
+    padding:8px;
+    background:#4177D4 url(/images/sidebar_gradient.gif) repeat-x scroll 0 0;
+}
+
+.ar-center-school-box #btnSubmitCollegeFinder {
+    background-position:-283px -409px;
+}
+
+.ar-center-school-box #btnSubmitCollegeFinder:hover,#btnSubmitCollegeFinder:focus {
+    background-position:-283px -441px;
+}
+
+.ar-center-school-box #btnSubmitCollegeFinder:active {
+    background-position:-283px -473px;
+}
+
+.js #statesWrapper {
+    height:372px;
+    overflow:hidden;
+}
+
+.js #states .scrollButton {
+    display:block;
+    padding:6px 0;
+    text-align:center;
+    position:relative;
+    cursor:pointer;
+    margin:2px 0;
+    background-color:#316fd6;
+    background-position:0 -103px;
+    background-repeat:repeat-x;
+}
+
+#sidebar #states a.scrollButton:hover {
+    background-color:#4280ec;
+}
+
+#topBar .parentNavItem {
+    position:relative;
+    padding-left:36px;
+}
+
+#topBar .parentNavItem,.innerHighlight {
+    border:1px solid #adc6ef;
+    border-bottom-color:#4177d4;
+    border-right-width:0;
+}
+
+.scrollButton .spriteArrow {
+    position:static;
+    display:block;
+    margin-top:0;
+}
+
+#sidebar #states a.inactiveScrollButton,#sidebar #states a.inactiveScrollButton:hover,#sidebar #states a.inactiveScrollButton:focus {
+    cursor:default;
+    opacity:.4;
+    filter:alpha(opacity=40);
+    background-color:#316fd6;
+}
+
+.scrollUp .spriteArrow {
+    background-position:-32px 0;
+}
+
+.scrollDown:hover .spriteArrow,.scrollDown:focus .spriteArrow {
+    background-position:-32px -5px;
+}
+
+#colleges #sidebar #states .activeItem,.activeState .cityWrapper {
+    background-color:#39429e;
+    background-color:#39429e!important;
+}
+
+.ar-left-school-menu-bar {
+    width:201px!important;
+}
+
+.sidebarList a {
+    text-decoration:none;
+    display:block;
+    font-weight:700;
+    padding:8px;
+    text-transform:uppercase;
+    margin:4px 0;
+}
+
+.collegeCalloutContent {
+    margin:0 3px 3px;
+    border:1px solid #39429e;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    text-decoration:underline;
+    margin:0 3px 3px;
+    border:1px solid #39429e;
+}
+
+.collegeCalloutTitle {
+    text-transform:uppercase;
+    margin:8px;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    font-weight:500;
+}
+
+#collegeResources p,#collegeResources a {
+    margin-bottom:6px;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    font-weight:500;
+}
+
+#collegeResources img {
+    border:1px solid #b6b6b6;
+}
+
+#specialtyDegrees .tightList li,#featuredSidebarSchools .spacedList li,.collegeSidebarCallout .tightList li {
+    border-bottom:1px dotted #858585;
+}
+
+#specialtyDegrees li.last,#featuredSidebarSchools li.last,.collegeSidebarCallout .tightList li.last {
+    border-bottom:0;
+}
+
+#specialtyDegrees .tightList li,#featuredSidebarSchools .tightList li,.collegeSidebarCallout .tightList li {
+    padding:8px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+}
+
+#featuredSidebarSchools .button {
+    margin-top:8px;
+}
+
+#schoolTypes .rounded {
+    color:#fff;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    font-weight:700;
+}
+
+#statesWrapper a.rounded {
+    color:#fff!important;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    font-weight:700;
+}
+
+#statesWrapper a:hover {
+    background-color:#494ba2!important;
+}
+
+.sidebarPadded p {
+    color:#fff;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+}
+
+.sidebarPadded .button {
+    background-color:#272596;
+}
+
+#content #sidebar .sidebarPadded a.displayBlock.button.rounded.floatLeft.clickableButton.darkBlue.clickableDarkBlueButton:hover {
+    background-color:#201f7c;
+}
+
+.colleges-info a {
+    color:#4951a5;
+}
+
+#collegeLander h1 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    font-weight:500;
+}
+
+.edu-listings-container {
+    display:none;
+    height:360px;
+    max-height:360px;
+    position:absolute;
+    top:0;
+    left:10px;
+    overflow:visible;
+    width:465px;
+    background-color:#4177D4;
+    display:none;
+    padding-top:10px;
+    padding-left:30px;
+    border:2px solid #000;
+}
+
+#edu-start {
+    height:200px;
+    width:260px;
+    display:inline-block;
+    position:relative;
+    font-family:Arial,sans-serif;
+    color:#333;
+    font-size:11px;
+    background-color:#4177D4;
+    border:1px solid #39429E;
+    top:100px;
+    left:10px;
+    padding:5px;
+}
+
+.edu-main-nav {
+    columns:2;
+    -webkit-columns:2;
+    -moz-columns:2;
+    text-align:center;
+    display:inline;
+}
+
+.button-subtext {
+    font-size:11px;
+    display:block;
+    font-weight:500;
+    color:#c52e1c;
+    letter-spacing:-.05em;
+    margin-top:5px;
+}
+
+.edu-button-start {
+    padding:13px 0 15px;
+    color:#fff;
+    text-align:center;
+    margin:5px 20px;
+    border-radius:4px;
+    border:1px solid #000;
+    width:202px;
+    background:#5CA140;
+    background-image:-webkit-linear-gradient(top,#5CA140,#338910);
+    background-image:-moz-linear-gradient(top,#5CA140,#338910);
+    background-image:-ms-linear-gradient(top,#5CA140,#338910);
+    background-image:-o-linear-gradient(top,#5CA140,#338910);
+    background-image:linear-gradient(to bottom,#5CA140,#338910);
+    height:50px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    display:inline-block;
+    opacity:1;
+}
+
+.edu-button-start-zip {
+    padding:13px 0 15px;
+    color:#fff;
+    text-align:center;
+    margin:5px 20px;
+    border-radius:4px;
+    border:1px solid #000;
+    width:202px;
+    background:#c52e1c;
+    background-image:-webkit-linear-gradient(top,#c52e1c,#9d2314);
+    background-image:-moz-linear-gradient(top,#c52e1c,#9d2314);
+    background-image:-ms-linear-gradient(top,#c52e1c,#9d2314);
+    background-image:-o-linear-gradient(top,#c52e1c,#9d2314);
+    background-image:linear-gradient(to bottom,#c52e1c,#9d2314);
+    height:50px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    display:inline-block;
+    opacity:1;
+}
+
+.edu-main-nav li a {
+    text-decoration:none;
+    color:#333;
+}
+
+.edu-parent {
+    position:relative;
+    height:100%;
+}
+
+.clickable a {
+    text-decoration:none;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:13px;
+    font-weight:600;
+}
+
+.edu-button-inline {
+    padding:4px 0 0 3px;
+    margin-bottom:5px;
+    border-radius:5px;
+    border:1px solid #000;
+    width:202px;
+    background-color:#FFF;
+    height:40px;
+    font-size:13px;
+    font-weight:600;
+    cursor:pointer;
+    display:inline-block;
+    line-height:.95em;
+}
+
+.edu-button-inline-go {
+    margin-bottom:5px;
+    border-radius:5px;
+    border:1px solid #000;
+    width:202px;
+    background-color:#FFF;
+    height:40px;
+    font-size:13px;
+    font-weight:600;
+    cursor:pointer;
+    display:inline-block;
+}
+
+.edu-button-start:hover {
+    background:#338910;
+    background-image:-webkit-linear-gradient(top,#338910,#5CA140);
+    background-image:-moz-linear-gradient(top,#338910,#5CA140);
+    background-image:-ms-linear-gradient(top,#338910,#5CA140);
+    background-image:-o-linear-gradient(top,#338910,#5CA140);
+    background-image:linear-gradient(top,#338910,#5CA140);
+    text-decoration:none;
+    color:#fff;
+}
+
+.edu-button-start-zip:hover {
+    background:#9d2314;
+    background-image:-webkit-linear-gradient(top,#9d2314,#c52e1c);
+    background-image:-moz-linear-gradient(top,#9d2314,#c52e1c);
+    background-image:-ms-linear-gradient(top,#9d2314,#c52e1c);
+    background-image:-o-linear-gradient(top,#9d2314,#c52e1c);
+    background-image:linear-gradient(to bottom,#9d2314,#c52e1c);
+    text-decoration:none;
+    color:#fff;
+}
+
+.edu-button-inline-go a {
+    padding:10px 0 0;
+    height:39px;
+    display:block;
+    cursor:pointer;
+    text-align:center;
+    color:#333;
+    border-radius:5px;
+}
+
+#edu-call-to-action {
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+}
+
+.edu-section-head {
+    text-align:left;
+    width:380px;
+    display:block;
+    margin-top:0;
+    margin-left:-25px;
+    font-size:15px;
+    color:#fff;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-weight:500;
+}
+
+.edu-back-position {
+    position:absolute;
+    color:#fff;
+    left:27px;
+    bottom:8px;
+    width:60px;
+    padding:0 4px;
+    border-right:3px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.edu-back-position-main {
+    position:absolute;
+    left:27px;
+    bottom:8px;
+    width:60px;
+    padding:0 4px;
+    border-right:3px;
+    color:#fff;
+    cursor:pointer;
+}
+
+.edu-more-position {
+    position:absolute;
+    right:24px;
+    bottom:8px;
+    width:60px;
+    padding:0 4px;
+    border-right:3px;
+    color:#fff;
+    cursor:pointer;
+}
+
+.edu-geo-form {
+    height:200px;
+    max-height:200px;
+    position:absolute;
+    top:100px;
+    left:10px;
+    overflow:visible;
+    width:400px;
+    background-color:#4177D4;
+    display:none;
+    padding-top:10px;
+    padding-left:30px;
+}
+
+.edu-form-align {
+    margin:40px 50px;
+    position:relative;
+}
+
+.edu-button-align {
+    margin-left:12px;
+    margin-bottom:30px;
+}
+
+.edu-section-desc {
+    text-align:left;
+    display:block;
+    font-size:15px;
+    color:#fff;
+    margin-top:15px;
+}
+
+#collegeSearchForm .collegeLightBlueBG,#collegeSearchForm .boxTab {
+    border-width:4px;
+}
+
+#collegeSearchForm .boxTab:hover {
+    background-color:#39429E;
+}
+
+.collegeLightBlueBG,.activeTab {
+    border:4px solid #39429e;
+}
+
+#collegeSearchForm .activeTab {
+    color:#39429e;
+    border-bottom:none;
+    padding-bottom:8px;
+    cursor:default;
+}
+
+#featuredSchools .collegeCalloutContent,#featuredSidebarSchools .collegeCalloutContent {
+    background-color:#FFF;
+}
+
+#collegeSearchForm .activeTab,.collegeLightBlueBG,.collegeCalloutContent,#collegeSearchForm .activeTab:hover {
+    background-color:#e8effa;
+}
+
+input#zipcode {
+    width:153px;
+}
+
+#selSearchSubject,#selSearchOnlineSubject {
+    width:178px;
+}
+
+#txtSchoolName {
+    width:347px;
+}
+
+.darkBlueBG,#topBar {
+    background-color:#4177d4;
+    border:1px solid #39429e;
+}
+
+.ar-center-school-box h2 {
+    color:#4177d4;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+    font-weight:500;
+}
+
+.breadcrumbPages {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:14px;
+}
+
+.campusexplorer-widget-launch a {
+    top:9px;
+    position:relative;
+    padding:10px;
+    background-color:#290777;
+    color:#fff;
+    text-decoration:none;
+    -webkit-box-shadow:inset 0 0 0 4px rgba(22,7,138,1);
+    -moz-box-shadow:inset 0 0 0 4px rgba(22,7,138,1);
+    box-shadow:inset 0 0 0 4px rgba(22,7,138,1);
+}
+
+.campusexplorer-widget-launch.floatRight a:hover {
+    background-color:#141c71;
+}
+
+.collegeh1 {
+    border-color:#4177D4;
+    color:#4177D4;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:18px;
+    font-weight:500;
+    border-bottom:1px solid #ef2f27;
+    padding-bottom:4px;
+}
+
+#collegeSearchTabs .activeTab {
+    color:#39429e;
+    padding:10px 16px;
+    border-bottom:none;
+    padding-bottom:8px;
+    cursor:default;
+}
+
+#collegeSearchTabs .boxTab {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    padding:10px 16px;
+    border-bottom:0!important;
+    margin-bottom:-4px;
+    color:#525aaa;
+    text-transform:uppercase;
+    font-weight:700;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-top-right-radius:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+}
+
+#collegeSearchForm select {
+    font-size:12px;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+}
+
+.activeState .cityWrapper {
+    background-color:#39429e!important;
+}
+
+.ar-center-school-box {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+}
+
+.ar-center-school-box.floatLeft.padded {
+    width:100%;
+}
+
+dt {
+    clear:both;
+    font-weight:700;
+    width:100%;
+}
+
+.stripedRows td,.stripedRows th,.spacedRows th,.spacedRows td {
+    padding:8px;
+    border:1px solid #ccc;
+}
+
+.stripedList li.odd,.stripedRows tr.odd td,.lightBlueTableBG td,.lightBlueTableBG th {
+    background-color:#f2f3ff;
+}
+
+.coolegesDetailList>li {
+    margin-left:0;
+}
+
+#colleges #sidebar a.activeItem,#topBar .topNavActive,#topBar li li a:hover,#parentCommonwealths li a:hover,#topBar li li a:focus,#parentCommonwealths li a:focus,.veryDarkBlueBG,#colleges #sidebar #schoolTypes a:hover,#colleges #sidebar #schoolTypes a:focus {
+    background-color:#121a6e;
+}
+
+#statesWrapper>ul.smallText.veryDarkBlueBG.rounded {
+    font-size:12px!important;
+}
+
+.ar-main-body-content .main-content-inner.col-sm-12.col-md-8 {
+    border:1px solid #d0d2d2;
+}
+
+.ar-hp-state-facts-box,.content-main .ar-hp-quizzes-box {
+    margin:0 8px 15px!important;
+}
+
+.ar-sidebar {
+    margin-right:9px!important;
+}
+
+.well {
+    padding:8px 0 0!important;
+}
+
+.ar-hp-states-capitals-box {
+    margin:0 8px 15px;
+}
+
+.sidebarBoxSchools .sidebarBoxContent.rounded,.sidebarBoxSchools .sidebarBoxContent ul li {
+    display:flex;
+}
+
+#sidebar .ruleBorder h2,#sidebar h3,#statesList a {
+    margin:0;
+}
+
+#sidebar p,#breadcrumb,#featuredSidebarSchools .featuredLogoLink {
+    margin-bottom:20px;
+}
+
+#statesList li,#statesList,.popularSchoolLink,.buttonRowPaddedText {
+    padding:2px 0;
+}
+
+.sidebarList a:hover,.breadcrumbPages a {
+    text-decoration:underline;
+}
+
+#colleges #sidebar a.activeItem,#topBar .topNavActive,#topBar li li a:hover,#topBar li:hover,#parentCommonwealths li a:hover,#topBar li li a:focus,#parentCommonwealths li a:focus,.veryDarkBlueBG,#colleges #sidebar #schoolTypes a:hover,#colleges #sidebar #schoolTypes a:focus,#schoolTypes a:hover {
+    background-color:#121a6e!important;
+}
+
+.colleges-info,#schoolCostInfo {
+    color:#000;
+}
+
+.whiteText,.whiteText a,.error,h2.collegeCalloutTitle {
+    color:#fff;
+}
+
+.edu-button-inline:hover .button-subtext,.edu-button-inline:hover,.edu-button-inline-go:hover,.edu-button-inline-go a:hover {
+    background-color:#c52e1c;
+    color:#fff;
+}
+
+#qs-hq,.ar-center-school-box a {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    text-decoration:underline;
+}
+
+@media (max-width: 994px) {
+    .ar-column-full-width.ar-sidebar,.well {
+        width:100%;
+        max-width:none;
+    }
+}
+
+#statesWrapper .cityWrapper a.rounded {
+    font-size:10px;
+}
+
+.sidebarList .activeState {
+    background-color:#39429e!important;
+    border-radius:3px;
+}
+
+.cityWrapper li {
+    padding:0 6px;
+}
+
+.veryDarkBlueCities {
+    margin:0 7px 6px;
+}
+
+.veryDarkBlueCities a {
+    padding:7px;
+}
+
+.qs-listings {
+    color:#000;
+}
+
+.breadcrumbPages a {
+    font-size:14px;
+}
+
+.breadcrumbPages {
+    width:315px;
+}
+
+.state-container-new {
+    width:145px;
+    margin-left:15px;
+    float:left;
+    position:relative;
+    display:inline;
+    padding:5px;
+}
+
+.state-container-new div {
+    width:145px;
+}
+
+.state-container-new .header {
+    background-color:#294462;
+    padding:2px;
+    cursor:pointer;
+    font-weight:700;
+}
+
+.state-header {
+    width:140px;
+    cursor:pointer;
+}
+
+.crumbs {
+    display:block;
+    position:relative;
+    margin-left:0;
+    margin-bottom:25px;
+    color:#555;
+    font-size:14px;
+}
+
+.crumbs a {
+    font-size:14px;
+    color:#4951a5;
+    text-decoration:underline;
+}
+
+.edu-listings-container {
+    display:none;
+}
+
+.clickable2-new {
+    margin-left:5px;
+    cursor:pointer;
+}
+
+.clickable2 > a {
+    text-decoration:none;
+    color:#333;
+}
+
+.clickable {
+    cursor:pointer;
+}
+
+.edu-listings-container > li {
+    line-height:1.5em;
+}
+
+.gi-size {
+    font-size:9px;
+}
+
+.filter-header {
+    background-color:#294462;
+    color:#FFF;
+    width:140px;
+    margin-left:-3px;
+    padding:2px;
+    display:inline-block;
+    font-size:12px;
+    font-weight:600;
+}
+
+#state {
+    border:1px solid #909090;
+    padding:0;
+    margin-bottom:10px;
+    margin-top:5px;
+    margin-left:5px;
+    font-size:11px;
+}
+
+.list-text {
+    font-size:11px;
+}
+
+.crumb-style {
+    font-weight:600;
+    font-size:18px!important;
+    margin-left:8px;
+    color:#294462;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+}
+
+.moveup-qs {
+    margin-top:-14px;
+}
+
+.current-class {
+    height:40px;
+    background-color:#fff;
+    border-color:#000;
+    border:1px;
+    display:block;
+}
+
+.jssora11l,.jssora11r,.jssora11ldn,.jssora11rdn {
+    position:absolute;
+    cursor:pointer;
+    display:block;
+    background:url(/images/a11.png) no-repeat;
+    overflow:hidden;
+}
+
+.jssora11l {
+    background-position:-11px -41px;
+}
+
+.jssora11r {
+    background-position:-71px -41px;
+}
+
+.jssora11l:hover {
+    background-position:-131px -41px;
+}
+
+.jssora11r:hover {
+    background-position:-191px -41px;
+}
+
+.jssora11ldn {
+    background-position:-251px -41px;
+}
+
+.jssora11rdn {
+    background-position:-311px -41px;
+}
+
+a.captionOrange:hover {
+    color:#eb5100;
+    text-decoration:underline;
+    background-color:#eee;
+    background-color:rgba(238,238,238,0.7);
+}
+
+.ap-layout {
+    color:#fff;
+    opacity:.6;
+    cursor:pointer;
+}
+
+.scroll-container {
+    margin-top:5px;
+}
+
+.cap-container {
+    width:635px;
+    margin-bottom:30px;
+    font-family:inherit;
+    text-align:justify;
+    font-size:15px;
+    border:1px solid #000;
+    padding:6px 15px;
+}
+
+.photocred {
+    font-size:11px;
+    font-style:italic;
+    color:#305891;
+}
+
+.sshowhead {
+    color:#294462;
+}
+
+.sem-form-drop {
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:4px 2px;
+    border:1px solid #aaa;
+    color:#222;
+}
+
+.ar-simplefoot,.ar-simplefoot > a {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:14px;
+    color:#FFF;
+    text-decoration:none;
+}
+
+.ar-simplefoot:hover,.ar-simplefoot > a:hover {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:14px;
+    color:#FFF;
+    text-decoration:underline;
+}
+
+.ar-sem-college-content {
+    max-width:970px;
+    min-width:300px;
+    margin-right:auto;
+    margin-left:auto;
+    padding:5px;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+}
+
+.ar-red-sem-fade {
+    background:linear-gradient(#C52E1C 60%,#9D2314) repeat scroll 0 0 #9D2314;
+    min-width:300px;
+}
+
+.ar-footer-sem-box {
+    background:none repeat scroll 0 0 #647178;
+    min-width:300px;
+}
+
+.semheader {
+    font-family:sans-serif;
+    font-size:21px;
+    font-weight:600;
+    margin:0 auto;
+}
+
+.sem-form-button:hover {
+    text-decoration:underline;
+    color:#4b80d8;
+}
+
+#edu-listings-container {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+}
+
+.campusexplorer-widget-launch a {
+    color:#fff;
+    text-decoration:none;
+}
+
+.college-resources-content h1 {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:18px;
+}
+
+h1.blueText.rule.collegeh1 {
+    padding-top:10px;
+}
+
+.center-ads {
+    text-align:center;
+}
+
+.list-bold,.list-text:hover {
+    font-weight:600;
+}
+
+@media (max-width: 992px) {
+    .ar-center-school-box #collegeLander {
+        width:auto;
+    }
+
+    .edu-button-inline {
+        height:auto;
+        display:block;
+    }
+
+    span.button-subtext {
+        display:none;
+    }
+
+    #sidebar,.edu-listings-container {
+        width:100%;
+    }
+}
+
+.boxLightBlue.clearAfter.boxTab.floatLeft {
+    padding:10px 16px;
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+    font-size:12px;
+    border-bottom:0!important;
+    margin-bottom:-4px;
+    color:#525aaa;
+    text-transform:uppercase;
+    font-weight:700;
+}
+
+.ar-hp-state-facts-links>ul>li {
+    width:22.97%;
+    display:inline-block;
+}
+
+.col-sm-3.ar-column-full-width.ar-hp-state-facts-links {
+    width:100%;
+}
+
+@media (max-width: 720px) {
+    .ar-hp-state-facts-links > ul > li {
+        width:100%;
+    }
+}
+
+.pic-finder-widget {
+    position:relative;
+}
+
+.col-xs-7.ar-column-full-width.ar-college-finder-text {
+    position:absolute;
+    top:5px;
+}
+
+.boxLightBlue.rounded {
+    margin-bottom:15px;
+}
+
+ul.listStates.clearAfter {
+    padding:0;
+}
+
+.ar-hp-state-facts-links ul {
+    padding:0!important;
+}
+
+.col-sm-3.ar-column-full-width.ar-hp-states-capitals-links ul,.ar-hp-community-info-links ul,.ar-college-finder-links ul,.ar-states-detail-panel-group ul,#sports ul,ul#schoolTypes,ul.coolegesDetailList,ul.spaced,ul.bulletedList ul,ul.bulletedList.clearAfter,ul.clearAfter,.rounded ul,ul.bulletedList.tightList.bulletedList.tightList {
+    list-style:none;
+    padding:0;
+}
+
+ul.bulletedList.tightList.bulletedList.tightList li {
+    list-style:none;
+}
+
+ol,ul {
+    margin-bottom:0;
+}
+
+.areacodes-listing {
+    display:flex;
+    font-size:17px;
+}
+
+.entry-content .areacodes-listing p,.entry-content .areacodes-listing a {
+    font-size:17px;
+}
+
+.area-codes-list-container p {
+    display:inline-block;
+    margin:0 0 2px;
+}
+
+.vdo_stories_content {
+    max-width:624px!important;
+}
+
+.ads-story-block {
+    margin-top:10px;
+}
+
+.ads-story-block #story {
+    max-height:372px;
+}
+
+.textCenter {
+    text-align:center;
+}
+
+.flagsHeader p {
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.state-content .flagsCols {
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.state-content .flagsContainer {
+    font-size:14px;
+    width:100%;
+}
+
+.pic-finder-widget img,.state-content .flagsContainerHeader {
+    width:100%;
+}
+
+ul.bulletedList,ul.stripedList.spacedList.noLeftMarginList {
+    padding:0;
+    list-style:none;
+}
+
+@media (max-width: 766px) {
+    .flagsContainerHeader {
+        display:none;
+    }
+
+    .col-sm-2.flagsCols.textCenter {
+        margin:20px;
+    }
+}
+
+a.flagsMoreUrl {
+    color:#000;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.flagsColsImg img {
+    width:190px;
+}
+
+.col-sm-2.flagsCols.textCenter a {
+    text-decoration:none;
+}
+
+a.ar-states-detail-next-btn,a.ar-states-detail-prev-btn {
+    text-align:center;
+}
+
+.flagsCols.textCenter > span {
+    font-weight:600;
+}
+
+.wp-block-pullquote blockquote p {
+    font-size:28px;
+    line-height:1.6;
+}
+
+.editor-styles-wrapper p {
+    font-size:inherit;
+    line-height:inherit;
+    margin-top:28px;
+    margin-bottom:28px;
+}
+
+.wp-block-pullquote p {
+    text-align:center;
+    font-size:28px!important;
+    line-height:1.6;
+}
+
+.wp-block-pullquote {
+    border-top:4px solid #555d66;
+    border-bottom:4px solid #555d66;
+    margin-bottom:28px!important;
+    color:#40464d;
+    margin-top:70px;
+    font-family:'Noto Serif';
+}
+
+.blocks-gallery-caption,.wp-block-embed figcaption,.wp-block-image figcaption {
+    color:#555d66;
+    font-size:13px;
+    text-align:center;
+}
+
+.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.is-resized>figcaption {
+    display:table-caption;
+    caption-side:bottom;
+}
+
+.wp-block-list {
+    font-size:17px;
+}
+
+.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer {
+    color:#40464d;
+    text-transform:uppercase;
+    font-size:13px;
+    font-style:normal;
+}
+
+.open > .dropdown-menu,.ar-states-detail-states-dropdown-menu {
+    position:absolute;
+}
+
+.btn-group.ar-states-detail-states-dropdown-menu.select-list-prev-next,.ar-states-detail-prev-btn {
+    position:relative;
+}
+
+@media (max-width: 990px) {
+    .soloSchoolInfo .soloProgramsList {
+        width:100%!important;
+    }
+}
+
+.soloProgramsList {
+    width:253px!important;
+}
+
+.mobile-list-item .gifSprite {
+    position:relative;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    top:11px;
+}
+
+.mobile-list-item {
+    margin:5px 0;
+}
+
+.margin-fix {
+    margin:0;
+    padding:5px;
+}
+
+@media (max-width: 631px) {
+    .boxLightBlueEvents .listStates {
+        display:none;
+    }
+
+    .conteiner-list-mobile {
+        display:block;
+    }
+}
+
+@media (min-width: 631px) {
+    .conteiner-list-mobile {
+        display:none;
+    }
+
+    .boxLightBlue .listStates {
+        display:block;
+    }
+}
+
+@media (max-width: 420px) {
+    .state-content .coinRow img {
+        width:140px;
+    }
+
+    .state-content .coinRow {
+        line-height:140px;
+    }
+}
+
+@media (max-width: 380px) {
+    .state-content .coinRow img {
+        width:120px;
+    }
+
+    .state-content .coinRow {
+        line-height:120px;
+    }
+}
+
+select#selState {
+    font-size:16px;
+}
+
+.sidebarBoxContent a {
+    line-height:1.8em;
+}
+
+.floatRight.col300Right.colRight-schools {
+    width:96%;
+    margin:0 7px;
+}
+
+input.form-control.ar-header-search-input {
+    font-family:Arial,Verdoana,Tahoma,sans-serif;
+}
+
+.codesInput {
+    margin:5px 0;
+}
+
+#post-742 .margin-fix {
+    padding:0 5px!important;
+}
+
+.cityguides p {
+    line-height:20pt;
+    font-size:16px;
+}
+
+.areacodes table a,.zipcodes table a,ul.stripedList.spacedList.noLeftMarginList {
+    line-height:30px;
+}
+
+.sportsContainer,ul.spacedList.spaced.stripedList.noLeftMarginList.school-list {
+    line-height:25px;
+}
+
+.zipcodes p,.zipcodes a,.areacodes p,.areacodes a {
+    font-size:16px!important;
+}
+
+.zipcodes h2,.areacodes h2 {
+    font-size:18px;
+    margin-top:20px;
+}
+
+@media (max-width: 766px) {
+    .mobile-home-slider {
+        display:block;
+    }
+
+    .desktop-home-slider {
+        display:none;
+    }
+}
+
+.home-slider {
+    padding:0 8px 8px;
+}
+
+.svg-usa-map path.land {
+    fill:#003c82;
+    stroke:#fff;
+    stroke-width:1;
+}
+
+.svg-usa-map text>tspan {
+    pointer-events:none;
+}
+
+.svg-usa-map tspan {
+    fill:#fff;
+}
+
+.svg-usa-map .outer-abbr {
+    fill:#000;
+}
+
+#floatingmes {
+    position:absolute;
+    z-index:999;
+    top:0;
+    left:0;
+    width:auto;
+    background:#FFF;
+    opacity:.85;
+    border:1px solid #000;
+    padding:3px 5px;
+}
+
+.svg-usa-map .name_show {
+    margin:0 auto;
+    width:300px;
+}
+
+.svg-usa-map .hovertext {
+    background:#8f9394 none repeat scroll 0 0;
+    border:1px solid #ffff;
+    border-radius:11px;
+    color:#ffff;
+    font-size:24px;
+    height:40px;
+    left:0;
+    padding:7px 27px;
+    right:0;
+    text-align:center;
+    width:auto;
+}
+
+.svg-usa-map svg {
+    height:100%;
+    width:100%;
+    margin-left:15px;
+}
+
+.svg-usa-map .map_search_form {
+    display:none;
+}
+
+@media only screen and (max-width: 700px) {
+    .svg-usa-map .name_show {
+        margin:0 auto;
+        max-width:134px;
+    }
+
+    .svg-usa-map .hovertext {
+        font-size:15px;
+        height:23px;
+        padding:1px 6px;
+        width:auto;
+    }
+
+    .svg-usa-map .heading h2 {
+        font-size:18px;
+    }
+}
+
+.svg-usa-map path.land:hover {
+    opacity:.6;
+    cursor:pointer;
+    transition:.5s;
+    -webkit-transition:.5s;
+}
+
+.svg-usa-map tspan:hover {
+    fill:#d0d0d0;
+}
+
+.svg-usa-map path.land:active{
+    fill:#34495e;
+}
+.ar-states-detail-panel-group h4.panel-title {
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.panel-heading-state {
+    margin: 20px 0;
+}
+.panel-body-state {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.bottom-line-state-facts {
+    background-color: red;
+    height: 5px;
+    width: 65%;
+    border-radius: 15px;
+}
+.popup-gallery .ar-column-full-width {
+    margin-bottom: 5px !important;
+}
+.row.ar-row-full-width.popup-gallery-section {
+    margin-bottom: 20px;
+}
+.popup-gallery img {
+    height: 101px;
+}
+.ar-states-detail-overview.second-section-image{
+    padding-top: 0;
+}
+.second-section-image img{
+    width: 200px;height: 106px;object-fit: cover;
+}
+.entry-content p {
+    margin: 0;
+    font-size: 17px;
+}
+.entry-content span{
+    font-size: 17px;
+}
+.panel-body-state > div {
+    margin-bottom: 16px;
+}
+
+.type-colleges_type .ar-center-school-box table {
+    border-collapse: collapse;
+    margin:10px auto;
+}
+
+
+
+.type-colleges_type .ar-center-school-box th {
+    background: #9d2314;
+    color: #fff;
+    font-weight: bold;
+    vertical-align: middle !important;
+}
+
+.type-colleges_type .ar-center-school-box th a{
+    color:#fff;
+    padding: 0 5px;
+}
+
+.type-colleges_type .ar-center-school-box td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    .type-colleges_type .ar-center-school-box table {
+        width: 100%;
+    }
+
+
+    .type-colleges_type .ar-center-school-box table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+
+    .type-colleges_type .ar-center-school-box thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+
+    .type-colleges_type .ar-center-school-box tr {
+        border: 1px solid #ccc;
+        margin: 0 0 5px;
+    }
+
+    .type-colleges_type .ar-center-school-box td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50% !important;
+    }
+
+    .type-colleges_type .ar-center-school-box td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        /* Label the data */
+        content: attr(data-column);
+
+        color: #000;
+        font-weight: bold;
+    }
+
+
+}
+.type-colleges_type .ar-center-school-box .table-hover tr, .ar-center-school-box .table-hover td {
+    border: 1px solid #ccc;
+}
+
+
+.type-colleges_states .ar-center-school-box table {
+    border-collapse: collapse;
+    margin:10px auto;
+}
+
+
+
+.type-colleges_states .ar-center-school-box th {
+    background: #9d2314;
+    color: #fff;
+    font-weight: bold;
+    vertical-align: middle !important;
+}
+
+.type-colleges_states .ar-center-school-box th a{
+    color:#fff;
+    padding: 0 5px;
+}
+
+.type-colleges_states  .ar-center-school-box td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+
+    .type-colleges_states .ar-center-school-box table {
+        display: block;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    .type-colleges_states .ar-center-school-box td, th {
+        border: 1px solid #ccc !important;
+        color: #000 !important;
+        height: 40px;
+        background-color: transparent !important;
+        border-collapse: collapse;
+    }
+
+    .type-colleges_states .ar-center-school-box thead {
+        float: left;
+        color: #000 !important;
+        background-color: transparent !important;
+        width: 60%;
+    }
+
+    .type-colleges_states .ar-center-school-box thead tr {
+        width: 100%;
+        float: left;
+    }
+
+    .type-colleges_states .ar-center-school-box thead th {
+        display: block;
+    }
+
+    .type-colleges_states .ar-center-school-box tbody {
+        float: left;
+        width: 40%;
+    }
+
+    .type-colleges_states .ar-center-school-box tbody tr {
+        display: inline-block;
+    }
+
+    .type-colleges_states .ar-center-school-box tbody td {
+        float: left;
+        width: 100%;
+    }
+}
