@@ -4,6 +4,7 @@
   <title>Project Clean Air Contact Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="pol.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -52,6 +53,8 @@
       }
       .row.content {height:auto;} 
     }
+	
+	
   </style>
 </head>
 <body>
@@ -72,7 +75,7 @@
         <li><a href="about2.html">About</a></li>
         <li class="active2"><a href="contact_volunteer.html">Contact and Volunteer</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right ">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
@@ -112,23 +115,32 @@
         or get involved with <a href="https://www.arborday.org/trees/treefacts/"> Arbor Day </a>  <br><br>
 	  <hr>
 		
-        <form action = "#">
-          <h4> Contact us!</h4>
-		  <br>
-          <label for ="name">Full Name</label>
-          <input type = "text" name="name" id="name" placeholder="Name" size="14">
-          <br>
-          <label> Phone Number</label>
-          <input type = "number" name="phone" placeholder="Number">
-          <br>
-          <label> Email </label>
-          <input type = "email" name="Email" placeholder="Email" required>
-          <br>
-          <label>message</label>
-          <textarea name="message" id="message" class="form-textarea"></textarea>
-          <input type = "submit" name="submit">
-        </form>
-		
+		<div>
+			<div>
+				<div>
+					<form action = "#">
+						<h4> Contact us!</h4>
+						<br>
+						Name:   
+						<br>
+						<input type = "text" name="name" id="name" placeholder="Jon Smith" size="14">
+						<br>
+						Number:
+						<br>
+						<input type = "tel" name="phone" placeholder="(731) 861-4952">
+						<br>
+						Email:
+						<br>
+						<input type = "email" name="Email" placeholder="smith@pca.com" required>
+						<br>
+						Message:
+						<br>
+						<textarea name="message" id="message" placeholder= "Hello..." class="form-textarea"></textarea>
+						<input type = "submit" name="submit">
+					</form>
+				</div>
+			</div>
+		</div>
      
      
       
@@ -152,7 +164,7 @@
   </div>
 </div>
 
-<footer class="container-fluid text-center">
+<footer class='container-fluid text-center text-blue'>
   <p>Created by group-19</p>
 </footer>
 

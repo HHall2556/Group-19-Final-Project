@@ -72,3 +72,15 @@ label{
 input{
 	font-size: inherit;
 }
+
+footer{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	color: blue;
+}
+
+.height1{
+	width: 200px !important;
+	
+}
