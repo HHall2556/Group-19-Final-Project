@@ -23,13 +23,6 @@
       background-color: #e1f3f8;
       height: 100%;
     }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #3d4551;
-      color: white;
-      padding: 15px;
-    }
 	
 	.active2 {
 		background-color: #162e51;
@@ -71,4 +64,16 @@ label{
 
 input{
 	font-size: inherit;
+}
+
+footer{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	color: white;
+}
+
+.height1{
+	width: 200px !important;
+	
 }
