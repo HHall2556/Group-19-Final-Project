@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Project Clean Air Contact Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="pol.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+	nav .navbar-nav li a{
+		color: #ffffff !important;
+	}
+	
+	body{
+	font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+	}
+  
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+		background-color: #1a4480;
+		margin-bottom: 0;
+		border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #e1f3f8;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #3d4551;
+      color: white;
+      padding: 15px;
+    }
+	
+	.active2 {
+		background-color: #162e51;
+	}
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	
+	
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">PCA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about2.html">About</a></li>
+        <li class="active2"><a href="contact_volunteer.html">Contact and Volunteer</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right ">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="plots/new_no2_barchart.html">Infograph: Pollutant barcharts by State</a></p>
+      <p><a href="plots/new_no2_map.html">Infograph: NO2, O3, and CO Maps of the US</a></p>
+      <p><a href='plots/top10.html'>Infograph: Top 10 biggest polluters by State and pollutant</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Project Clean Air Contact and Volunteer Opportunities/Tips</h1>
+      <p> Making a conscious effort to change your day to day lifestyle is an awesome thing to do for the planet.
+        No matter how small the change is, we can all pitch in in helping to keep the air unpolluted for generations to come.
+        here are a few ways to reduce your carbon fingerprint or help volunteer <br> <br>
+		</p>
+
+        1. Rely less on fossil fuel (driving your car) and use alternatives <br>
+
+        An estimated 150 million people living in the U.S. live in areas that do not meet air quality standards, 
+        and most of this bad air is due to our own reliance on fossil fuels
+        Combustion engines from cars and trucks produce a number of polluting elements including ozone, 
+        particulate matter, and other smog-forming emissions. Nitrogen oxide and carbon monoxide are other 
+        main components of this exhaust, and both have had a proven negative impact on the environment. Alternatives
+        to driving could be to walk or bike around. If the distant feels lengthy then try using electric cars or 
+        commute by either using the metro or the bus to reach those destinations <br> <br>
+
+        2. Funding or raising money to help with projects dealing with the problem like Clean Air Fund<br>
+
+        If you could go the extra mile and donate to projects that are helping make breathable air still a thing then
+        for sure go for it. If money seems like an issue then start a fundraiser to get other people's attention
+        on the subject. Bakesales at universities or bazzaars could help getting things running. Clean Air Fund tackles the issue and is backed by organization.
+        Learn more about them <a href="https://www.cleanairfund.org/about/"> here </a> You can also plant trees
+        or get involved with <a href="https://www.arborday.org/trees/treefacts/"> Arbor Day </a>  <br><br>
+	  <hr>
+		
+		<div>
+			<div>
+				<div>
+					<form action = "#">
+						<h4> Contact us!</h4>
+						<br>
+						Name:   
+						<br>
+						<input type = "text" name="name" id="name" placeholder="Jon Smith" size="14">
+						<br>
+						Number:
+						<br>
+						<input type = "tel" name="phone" placeholder="(731) 861-4952">
+						<br>
+						Email:
+						<br>
+						<input type = "email" name="Email" placeholder="smith@pca.com" required>
+						<br>
+						Message:
+						<br>
+						<textarea name="message" id="message" placeholder= "Hello..." class="form-textarea"></textarea>
+						<input type = "submit" name="submit">
+					</form>
+				</div>
+			</div>
+		</div>
+     
+     
+      
+      
+    </div>
+    <div class="col-sm-2 sidenav">
+		<div class="card" style="width: 18rem;">
+			<img class="card-img-top" src="images/rss.png" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title" style= "font-family: sans Pro Web;"><b>Environmental News</b></h5>
+				<p class="card-text">See the latest environmental news:</p>
+				<li><a href="https://www.nytimes.com/2021/12/02/business/shell-cambo-oil.html">Shell pulls out of a U.K. oil field targeted by climate activists.</a></li>
+				<br>
+				<li><a href="https://capitalandmain.com/california-senator-who-helped-kill-environmental-regulations-runs-oil-and-gas-staffing-firm">California Senator Who Helped Kill Environmental Regulations Runs Oil and Gas Staffing Firm</a></li>
+				<br>
+				<li><a href="https://yaledailynews.com/blog/2021/12/03/environmental-advisory-council-talks-leaf-blowers/">Environmental Advisory Council talks leaf blowers</a></li>
+				<!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+			</div>
+		</div>
+    </div>
+  </div>
+</div>
+
+<footer class='container-fluid text-center text-blue'>
+  <p>Created by Group-19</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+nav .navbar-nav li a{
+	color: #ffffff !important;
+}
+
+body{
+font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+background-color: #1a4480;
+margin-bottom: 0;
+border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+padding-top: 20px;
+background-color: #e1f3f8;
+height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+background-color: #3d4551;
+color: #fffff;
+padding: 15px;
+}
+
+.active2 {
+background-color: #162e51;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+.sidenav {
+height: auto;
+padding: 15px;
+}
+.row.content {height:auto;} 
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+fieldset{
+background-color: #f1f1f1;
+border: none;
+border-radius: 2px;
+margin-bottom: 12px;
+overflow: hidden;
+padding: 0 .625em;
+}
+
+label{
+cursor: pointer;
+display: inline-block;
+padding: 3px 6px;
+text-align: right;
+width: 150px;
+vertical-align: top;
+}
+
+input{
+font-size: inherit;
+}
+
+footer{
+position: fixed;
+bottom:0;
+width: 100%;
+color: white;
+}
+
+.height1{
+width: 200px !important;
+
+}
+
+nav .navbar-nav li a{
+	color: #ffffff !important;
+}
+
+body {
+       width: 100% important!;
+       margin: 0% important!;    
+}
+
